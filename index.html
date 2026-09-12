@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoraNav - ഡോറയുടെ വഴികാട്ടി</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 24px;
+            line-height: 1.7;
+            color: #222;
+            background: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-top: 36px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
+
+        p {
+            margin: 14px 0 24px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>DoraNav - ഡോറയുടെ വഴികാട്ടി</h1>
+
+    <section>
+        <h2>01 — The Problem: Dora Needed a Way Out</h2>
+        <p>
+            It started with a surprisingly simple problem: Dora has places to go, but she does not really have a navigation system. While scrolling through Instagram, we came across a Reporter Live post asking whether Dora was actually blind. Instead of simply scrolling past it, we started wondering what it would look like if Dora actually had a system that could guide her through her world. Around the same time, TinkerHub's Useless Projects 3.0 gave us the perfect excuse to take the thought seriously. We initially approached the problem like a miniature Google Maps: give Dora a map, let her select a destination, calculate a route and guide her there. The first solution was therefore straightforward — create a custom map of Dora's world with important destinations connected through navigable paths. That sounds reasonable. Unfortunately, we kept thinking.
+        </p>
+    </section>
+
+    <section>
+        <h2>02 — Problem: A Map Alone Wasn't Enough</h2>
+        <p>
+            Once we started designing the map, we realised that simply displaying locations would not actually solve the navigation problem. A static map can show Dora where places are, but it cannot tell her what to do when the world changes. So we changed our approach from building a map interface to building a navigation system. We created a custom Dora world containing destinations, intermediate locations, roads, bridges, rivers, mountains and other areas that Dora could travel through. Instead of treating these as drawings on a screen, we represented them as structured navigation data. Locations became nodes, connections became paths, and each path could have properties such as distance, difficulty, safety or availability. This gave us something much more useful than a pretty map: we had a world that could actually be processed by an algorithm.
+        </p>
+    </section>
+
+    <section>
+        <h2>03 — Problem: How Does Dora Find the Best Route?</h2>
+        <p>
+            The next problem was obvious: once we had a connected world, how would Dora actually find her way from one location to another? Hard-coding a route for every destination would have been easy, but it would not really be navigation. We needed an algorithm that could look at the available paths and calculate the best route dynamically. We therefore approached the problem using graph-based pathfinding and selected A*. Each location became a node, each connection became an edge, and A* evaluated possible paths using the cost already travelled together with an estimate of the remaining distance. This meant DoraNav could calculate a route instead of simply displaying one that we had written beforehand. At this point, the project had officially gone from “Let's make Google Maps for Dora” to “Okay, now we need to implement A*.” Orpichu A* mathiyenn 😂.
+        </p>
+    </section>
+
+    <section>
+        <h2>04 — Problem: The Route Cannot Be the Same Every Time</h2>
+        <p>
+            A single shortest path was still not enough because Dora's journeys were supposed to feel different depending on what she wanted from the adventure. We therefore changed the route-selection model so that A* remained the underlying pathfinding algorithm, while the cost of different paths could change depending on the selected preference. A Normal Route prioritises a balanced journey, a Swiper-Safe Route gives greater importance to avoiding risky areas, a Boots Route favours easier and friendlier paths, and the Most Adventurous Route allows Dora to take longer paths with more exploration. We also introduced mood and adventure-level selection so that the interface could recommend different route preferences depending on whether Dora was feeling Happy, Curious, Brave, Tired or Playful. Instead of creating four completely different navigation systems, we kept one pathfinding engine and changed how the available paths were evaluated. That made the system much more flexible without making the map's brain completely lose its mind.
+        </p>
+    </section>
+
+    <section>
+        <h2>05 — Problem: What If the Road Suddenly Becomes Unavailable?</h2>
+        <p>
+            This was where the navigation system became genuinely dynamic. A route calculated at the beginning of a journey assumes that the world is in a particular state, but Dora's world is not exactly known for being peaceful. Bridges can be blocked, roads can become unavailable, dangerous areas can appear and, most importantly, Swiper can show up. So instead of treating a calculated route as permanent, we introduced dynamic obstacles into the navigation model. When an obstacle affects a road or location, that part of the graph is updated and the navigation engine recalculates the route. The important part is that the system does not simply restart Dora's journey from the beginning. It recalculates from her current location, using the updated state of the world. This turned rerouting from a visual trick into an actual change in the pathfinding problem.
+        </p>
+    </section>
+
+    <section>
+        <h2>06 — Problem: Swiper Is Not a One-Time Event</h2>
+        <p>
+            Once we had basic rerouting, another problem appeared: what happens if the alternative route gets blocked too? We did not want the system to simply switch between a few hard-coded routes, because that would stop being genuine dynamic navigation. So we changed the rerouting logic to repeatedly evaluate the graph whenever the obstacle state changes. If Swiper blocks the current route, the affected path becomes unavailable and A* searches for the best remaining route. If another obstacle later blocks that route, the graph is updated again and A* runs again from Dora's current position. The same mechanism can handle Swiper, crocodile areas, fallen stones, blocked bridges or other obstacles. In other words, the navigation engine does not ask “Which route should I show next?” It asks “Given the world as it exists right now, what is the best route available?” That small change made the system considerably more powerful.
+        </p>
+    </section>
+
+    <section>
+        <h2>07 — Problem: Navigation Should Understand the Journey, Not Just the Destination</h2>
+        <p>
+            At this point, the navigation engine could find a route, but we wanted DoraNav to understand the context of the journey as well. This led to the Backpack system. Instead of displaying the same fixed collection of items every time, the application can use the destination and journey conditions to determine what Dora might need. A route involving water can suggest a raft, rope or life jacket, while a cave journey can suggest a flashlight or lantern and a snowy route can suggest warm clothing. The backpack was therefore implemented as a contextual feature rather than just another static screen. The recommendation logic remains separate from the interface, allowing the navigation system to provide journey information without tightly coupling the two systems. It was supposed to be a small feature. Somehow, Dora now has better travel preparation than most of us.
+        </p>
+    </section>
+
+    <section>
+        <h2>08 — Problem: A Navigation App Should Actually Talk</h2>
+        <p>
+            A route drawn on a screen is useful, but we wanted the experience to feel more like an actual guided adventure. So we added voice navigation and connected it to the current route information. Instead of hard-coding sentences such as “Turn right at the bridge,” the navigation interface can generate instructions from the actual sequence of locations and paths selected by the routing system. This means the voice guidance can change when the route changes. If Swiper causes a reroute, the instructions should follow the new path rather than continuing to describe the old one. We also introduced background music to make the journey feel alive, with the audio system managed centrally so that music can continue across screens instead of restarting every time the interface changes. When Dora speaks, the background music can be reduced, and when the destination is reached, the normal adventure music can fade out.
+        </p>
+    </section>
+
+    <section>
+        <h2>09 — Problem: The Map Felt Too Static</h2>
+        <p>
+            Even with navigation, voice guidance and dynamic routing, there was still a difference between using a map and experiencing an adventure. We therefore approached the interface as a living environment rather than a collection of screens. Dora and Boots became part of the experience, the map could display changing routes and obstacles, Swiper could appear as a navigation event, and different parts of the interface could react to the journey. The UI was built screen by screen in Flutter, with reusable components so that dynamic information such as the destination, current position, route, ETA, obstacle status and navigation instructions could later come directly from the navigation engine. This separation was important because we did not want a beautiful interface that only worked for one demo route. The goal was to make the UI a visual layer sitting on top of an actual navigation system.
+        </p>
+    </section>
+
+    <section>
+        <h2>10 — Problem: Building the App Was Harder Than Designing It</h2>
+        <p>
+            The biggest challenge was not coming up with features. It was actually making all of them work together. We were building in Flutter even though our previous Flutter experience was relatively basic; a simple chat interface was one thing, but a complete application involving multiple screens, custom map behaviour, pathfinding, dynamic obstacles, audio and animations was something else entirely. We therefore changed our development approach and built the application incrementally, taking one screen at a time, implementing it, testing it, fixing what broke and only then moving to the next part. AI-assisted development became part of that workflow as well, with prompts being used to turn visual designs into Flutter implementations and then iterating through errors and behaviour. This helped us move quickly, but it did not remove the difficult part: every generated piece still had to fit into the architecture and actually work with everything we had already built.
+        </p>
+    </section>
+
+    <section>
+        <h2>11 — Problem: The Ending Needed to Feel Like an Ending</h2>
+        <p>
+            After spending all that effort getting Dora to her destination, simply displaying “Destination Reached” felt slightly underwhelming. So we approached the final moment as another state in the application rather than just another screen. When the destination is reached, the navigation journey ends, the background music fades out and the Fiesta Trio celebration begins. Instead of using a video as the final implementation, the celebration animation is being recreated natively in Flutter using animation controllers, character movement, transitions, bouncing and celebration effects. The result is intended to feel like the world itself is celebrating that Dora made it safely to her destination. After the celebration, the application generates an Adventure Report containing information such as distance travelled, turns taken, bridges crossed, animals encountered, Swiper encounters, backpack usage and the overall adventure score. Because apparently reaching a fictional castle now requires analytics.
+        </p>
+    </section>
+
+    <section>
+        <h2>12 — The Final Problem: Was Any of This Necessary?</h2>
+        <p>
+            After solving all these problems, we eventually arrived at the most important question: was any of this actually necessary? Dora probably did not need a custom graph-based navigation engine. She probably did not need mood-based route selection, contextual backpack recommendations, dynamic Swiper rerouting, voice navigation, background music or an Adventure Report. We certainly did not need to spend hours making A* navigate through a fictional world. But that was never really the point. The project began with a completely unnecessary question and became an opportunity to take that question seriously enough to build something real. Every feature came from a problem we encountered along the way, and every problem forced us to change the way we approached the system. What began as “Google Maps for Dora” eventually became a Flutter application with a custom world, graph-based navigation, A* pathfinding, dynamic obstacles, rerouting, contextual interactions, voice, audio and animation. It was a useless problem — solved with an unnecessarily serious engineering approach.
+        </p>
+    </section>
+
+</body>
+</html>
