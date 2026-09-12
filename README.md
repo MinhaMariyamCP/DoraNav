@@ -1,59 +1,58 @@
-[DoraNav - ഡോറയുടെ വഴികാട്ടി]
-Basic Details
-Team Name: [കാറ്റാടി]
+# DoraNav - ഡോറയുടെ വഴികാട്ടി
 
-Team Members
+## Basic Details
 
-Team Lead: [Minha Mariyam C P] - [College Of Engineering,Chengannur]
-Member 2: [Muhammed Sufiyan S ] - [College Of Engineering,Chengannur]
+**Team Name:** [കാറ്റാടി]
 
-Project Description
+## Team Members
 
-DoraNav is Dora’s personal map, because even Dora needs GPS when the entire world is trying to stop her.  It finds safe routes and avoids broken bridges, blocked roads, crocodiles, and Kurunari. In short: “Find the way. Stay away. And PLEASE don’t get Swipered.” 
+**Team Lead:** [Minha Mariyam C P] - [College Of Engineering,Chengannur]
 
-The Problem
+**Member 2:** [Muhammed Sufiyan S ] - [College Of Engineering,Chengannur]
 
-  Dora wants to go somewhere, but her world is full of unexpected problems like blocked roads, broken bridges, crocodiles, and Kurunari. So the biggest problem is: How can Dora reach her destination without turning every simple journey into a dangerous adventure?.
+## Project Description
 
-The Solution 
+DoraNav is Dora’s personal map, because even Dora needs GPS when the entire world is trying to stop her.  It finds safe routes and avoids broken bridges, blocked roads, crocodiles, and Kurunari. In short: “Find the way. Stay away. And PLEASE don’t get Swipered.”
+
+## The Problem
+
+Dora wants to go somewhere, but her world is full of unexpected problems like blocked roads, broken bridges, crocodiles, and Kurunari. So the biggest problem is: How can Dora reach her destination without turning every simple journey into a dangerous adventure?.
+
+## The Solution
 
 We created DoraNav, Dora’s personal navigation app that checks the route and avoids dangerous or blocked areas. It finds a safer alternative route using the A* algorithm, so Dora can reach her destination without getting Swipered, eaten, or stuck.
- 
-Technical Details
-Technologies/Components Used
+
+## Technical Details
+
+### Technologies/Components Used
 
 For Software:
 
-Language-Dart
-Framework-Flutter
-Libraries-pubspec.yaml
-Tools used-Visual Studio Code
+* Language-Dart
+* Framework-Flutter
+* Libraries-pubspec.yaml
+* Tools used-Visual Studio Code
 
 For Software:
 
-Installation
+## Installation
 
 DoraNav is a Flutter-based Android application. A new user can follow the steps below to install and run the project.
 
-Requirements
+### Requirements
 
 Before installing DoraNav, make sure the computer has:
 
-Windows, macOS, or Linux
-
-Flutter SDK
-
-Android Studio
-
-Android SDK
-
-Visual Studio Code (recommended)
-
-An Android phone or Android Emulator
+* Windows, macOS, or Linux
+* Flutter SDK
+* Android Studio
+* Android SDK
+* Visual Studio Code (recommended)
+* An Android phone or Android Emulator
 
 Note: No special hardware is required to use DoraNav.
 
-1. Install Flutter
+### 1. Install Flutter
 
 Download and install Flutter from:
 
@@ -61,11 +60,13 @@ https://docs.flutter.dev/get-started/install
 
 After installing Flutter, open Command Prompt or Terminal and run:
 
+```bash
 flutter doctor
+```
 
 This checks whether Flutter and the required development tools are installed correctly.
 
-2. Install Android Studio
+### 2. Install Android Studio
 
 Download Android Studio from:
 
@@ -73,21 +74,19 @@ https://developer.android.com/studio
 
 Make sure the following Android components are installed:
 
-Android SDK
-
-Android SDK Platform-Tools
-
-Android SDK Build-Tools
-
-Android SDK Command-line Tools
-
-Android Emulator
+* Android SDK
+* Android SDK Platform-Tools
+* Android SDK Build-Tools
+* Android SDK Command-line Tools
+* Android Emulator
 
 After installation, check the Android setup using:
 
+```bash
 flutter doctor
+```
 
-3. Install Visual Studio Code
+### 3. Install Visual Studio Code
 
 Download VS Code from:
 
@@ -95,127 +94,156 @@ https://code.visualstudio.com/
 
 After installing VS Code, install these extensions:
 
-Flutter
+* Flutter
+* Dart
 
-Dart
-
-4. Download DoraNav
+### 4. Download DoraNav
 
 Download or clone the DoraNav project from the repository.
 
 Using Git:
 
+```bash
 git clone <YOUR-GITHUB-REPOSITORY-LINK>
+```
 
 Then enter the project folder:
 
+```bash
 cd doranav
+```
 
 Alternatively, download the project as a ZIP file, extract it, and open the extracted doranav folder in Visual Studio Code.
 
-5. Install Project Dependencies
+### 5. Install Project Dependencies
 
 Open a terminal inside the doranav project folder and run:
 
+```bash
 flutter pub get
+```
 
 This reads the pubspec.yaml file and downloads the required Flutter packages.
 
-6. Check the Android Device
+### 6. Check the Android Device
 
 DoraNav needs an Android device or emulator.
 
-Option A - Android Phone
+#### Option A - Android Phone
 
 Connect an Android phone to the computer using a USB cable and enable USB Debugging in Developer Options.
 
 Then run:
 
+```bash
 flutter devices
+```
 
 The connected phone should appear in the list.
 
-Option B - Android Emulator
+#### Option B - Android Emulator
 
 Open Android Studio, go to:
 
-Device Manager → Start an Android Emulator
+**Device Manager → Start an Android Emulator**
 
 Then check the device using:
 
+```bash
 flutter devices
+```
 
-Run
+## Run
 
 Once the installation is complete and an Android device or emulator is available, follow these steps.
 
-1. Open the Project
+### 1. Open the Project
 
 Open the doranav folder in Visual Studio Code.
 
 Open:
 
-Terminal → New Terminal
+**Terminal → New Terminal**
 
 Make sure the terminal is inside the DoraNav project folder.
 
-2. Get Dependencies
+### 2. Get Dependencies
 
 Run:
 
+```bash
 flutter pub get
+```
 
-3. Check for Errors
+### 3. Check for Errors
 
 Run:
 
+```bash
 flutter analyze
+```
 
 This checks the Dart and Flutter code for possible problems.
 
-4. Run DoraNav
+### 4. Run DoraNav
 
 Start the Android phone or emulator and run:
 
+```bash
 flutter run
+```
 
 Flutter will build the application and install it on the selected Android device.
 
 After the build is complete, DoraNav will open on the device. 🗺️📱
 
-5. Run on a Specific Device
+### 5. Run on a Specific Device
 
 If more than one device is connected, first run:
 
+```bash
 flutter devices
+```
 
 Then use the required device ID:
 
+```bash
 flutter run -d <device-id>
+```
 
 For example:
 
+```bash
 flutter run -d emulator-5554
+```
 
-Quick Start
+## Quick Start
 
 If Flutter and Android Studio are already installed, the basic process is:
 
+```bash
 git clone <YOUR-GITHUB-REPOSITORY-LINK>
 cd doranav
 flutter pub get
 flutter devices
 flutter run
-Project Documentation
+```
+
+## Project Documentation
+
 For Software:
 
-Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
+### Screenshots 
+Dora's World Map Interface :https://drive.google.com/file/d/1kd_yHPlPxaSQDDckYMp9jrhd4SQj8o05/view
+Dora Navigating:https://drive.google.com/file/d/1P2bj6BWr7fkygrnDY-agbfYFHYeXNWrf/view
+Adventure Report:https://drive.google.com/file/d/1SryBNRA8fhHyqSt9eDGRdzmfClwoeDn8/view
 
-![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
+## Video Demo
+Link:https://drive.google.com/file/d/1F-5VvQXwy-IlzzTkSyFDRoZegkBu-R4v/view
+## Team Contributions
 
-![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
+Minha Mariyam C P - Flutter app development,Documentation and presentation
 
-Team Contributions
-Minha Mariyam C P -  Flutter app development,Documentation and presentation
 Muhammed Sufiyan S - UI/UX design,Map interface design
+
+
