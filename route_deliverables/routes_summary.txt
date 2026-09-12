@@ -1,0 +1,68 @@
+================================================================================================
+            DORANAV UNIFIED MAP - ROUTE EVALUATION & DISPATCH SUMMARY
+================================================================================================
+Origin: (0,0) Top-Left | Dimensions: 1820x1024 px | Scale: 1 px = 2.5 m
+Nominal Ground Speed: 37.5 m/s (15.0 px/s)
+Scoring Model: Cost = Distance_Cost + Hazard_Penalty + (Expected_Delay * Speed)
+------------------------------------------------------------------------------------------------
+
+1. ROUTE COMPARISON & RANKING TABLE
+------------------------------------------------------------------------------------------------
+Rank Route Name                        Distance (m)   ETA       Hazard Penalties  Total Cost  
+------------------------------------------------------------------------------------------------
+#1   Alternative Route 1 (Maximum Saf  4435.0         1m 58s    0.0               1774.0      
+#2   Primary Route (Recommended)       4471.7         1m 59s    0.0               1788.7      
+#3   Alternative Route 2 (Shortest /   3843.0         5m 19s    850.0             2912.2      
+-    Dotted Preferred Route (Baseline  4768.5         9m 22s    5850.0            9182.4      
+------------------------------------------------------------------------------------------------
+
+2. TURN-BY-TURN WAYPOINT COORDINATES
+------------------------------------------------------------------------------------------------
+--- Primary Route (Recommended) (Rank #2) ---
+Total Distance: 4471.7 m (1788.7 px) | ETA: 1m 59s
+  * WP_01 (105, 415) -> WP_02 (385, 345): 721.5 m | 02 Jungle Entrance [Safe clearance]
+  * WP_02 (385, 345) -> WP_03 (425, 235): 292.6 m | 05 Adventure Forest [Safe clearance]
+  * WP_03 (425, 235) -> WP_12 (740, 390): 877.7 m | 35 Desert Oasis [Safe clearance]
+  * WP_12 (740, 390) -> WP_13 (830, 580): 525.6 m | 32 Rainbow Bridge [Safe clearance]
+  * WP_13 (830, 580) -> WP_22 (980, 670): 437.3 m | 62 Southern Coastal Causeway [Safe clearance]
+  * WP_22 (980, 670) -> WP_23 (1120, 620): 371.7 m | 31 Waterfall Overlook [Safe clearance]
+  * WP_23 (1120, 620) -> WP_17 (1180, 545): 240.1 m | 34 Castle Bridge [Safe clearance]
+  * WP_17 (1180, 545) -> WP_18 (1370, 425): 561.8 m | 52 Fairy Forest [Safe clearance]
+  * WP_18 (1370, 425) -> WP_10 (1485, 290): 443.4 m | 12 King's Castle (Goal) [Safe clearance]
+
+--- Alternative Route 1 (Maximum Safety) (Rank #1) ---
+Total Distance: 4435.0 m (1774.0 px) | ETA: 1m 58s
+  * WP_01 (105, 415) -> WP_02 (385, 345): 721.5 m | 02 Jungle Entrance [Safe clearance]
+  * WP_02 (385, 345) -> WP_04 (470, 85): 683.9 m | 10 Treehouse [Safe clearance]
+  * WP_04 (470, 85) -> WP_05 (790, 140): 811.7 m | 13 Blueberry Hill [Safe clearance]
+  * WP_05 (790, 140) -> WP_06 (865, 210): 256.5 m | 19 Moonbeam Mountain [Safe clearance]
+  * WP_06 (865, 210) -> WP_07 (1280, 125): 1059.0 m | 43 High Tower [Safe clearance]
+  * WP_07 (1280, 125) -> WP_08 (1320, 210): 234.9 m | 46 Wizard's Castle [Safe clearance]
+  * WP_08 (1320, 210) -> WP_09 (1410, 150): 270.4 m | 50 Cloud Path [Safe clearance]
+  * WP_09 (1410, 150) -> WP_10 (1485, 290): 397.1 m | 12 King's Castle (Goal) [Safe clearance]
+
+--- Alternative Route 2 (Shortest / Fastest with Mitigations) (Rank #3) ---
+Total Distance: 3843.0 m (1537.2 px) | ETA: 5m 19s
+  * WP_01 (105, 415) -> WP_20 (290, 510): 519.9 m | 57 School & Plain [Safe clearance]
+  * WP_20 (290, 510) -> WP_21 (620, 620): 869.6 m | 28 Sparkling Lake Causeway [Safe clearance]
+  * WP_21 (620, 620) -> WP_14 (960, 580): 855.9 m | 33 Troll Bridge (Blocked) [Intersects Blocked Troll Bridge (Node 33)]
+  * WP_14 (960, 580) -> WP_15 (1085, 480): 400.2 m | 42 Lava Tunnel [Intersects Rocky Hilly Pass (Volcano & Lava Tunnel)]
+  * WP_15 (1085, 480) -> WP_19 (1330, 270): 806.7 m | 44 Castle Gate (Swiper Zone) [Intersects Swiper Mobile Blocker (Castle Gate Pass)]
+  * WP_19 (1330, 270) -> WP_10 (1485, 290): 390.7 m | 12 King's Castle (Goal) [Intersects Swiper Mobile Blocker (Castle Gate Pass)]
+
+3. OPERATOR / ROBOT EXECUTION INSTRUCTIONS
+------------------------------------------------------------------------------------------------
+[PRIMARY ROUTE EXECUTION]
+  * Waypoint WP_01 -> WP_02: Depart Dora's House eastward along paved forest path.
+  * Waypoint WP_02 -> WP_03: Clear Jungle Entrance; proceed through Adventure Forest.
+  * Waypoint WP_03 -> WP_12: Branch south-east toward Desert Oasis; DO NOT attempt water ferry crossing (Crocodile threat).
+  * Waypoint WP_12 -> WP_13: Cross Giant River safely via Rainbow Bridge (WP_13). Verify bridge integrity.
+  * Waypoint WP_13 -> WP_22 -> WP_23: Proceed via Southern Coastal Causeway, completely bypassing Troll Bridge (WP_14).
+  * Waypoint WP_23 -> WP_17: Cross river north-east over Castle Bridge (WP_17).
+  * Waypoint WP_17 -> WP_18: Ascend through Fairy Forest (WP_18) under floral canopy cover.
+  * Waypoint WP_18 -> WP_10: Enter King's Castle (Goal) via south-east gateway.
+
+[CONTINGENCY / DETOUR PROTOCOLS]
+  * Contingency Alt 1 (Extreme Weather / Lowland Blockage): At WP_02, divert north to WP_04 (Treehouse), traverse high northern mountain ridge (WP_05, WP_06) and access King's Castle through Wizard's Castle & Cloud Path (WP_08, WP_09). Zero hazard exposure.
+  * Contingency Alt 2 (Urgent High-Speed Transit): Divert south via Sparkling Lake causeway (WP_21). Operator must execute 15 s negotiation halt at Troll Bridge (WP_14), and engage traction control (50% speed throttle) through Volcano scree pass (WP_15, WP_16).
+================================================================================================

@@ -1,0 +1,1147 @@
+[
+  {
+    "id": "R001",
+    "from": "L001",
+    "to": "L002",
+    "bidirectional": true,
+    "length": 15.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "main_trail",
+      "scenic": true
+    }
+  },
+  {
+    "id": "R002",
+    "from": "L002",
+    "to": "L003",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R003",
+    "from": "L003",
+    "to": "L004",
+    "bidirectional": true,
+    "length": 13.93,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R004",
+    "from": "L004",
+    "to": "L048",
+    "bidirectional": true,
+    "length": 18.03,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R005",
+    "from": "L002",
+    "to": "L005",
+    "bidirectional": true,
+    "length": 19.72,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R006",
+    "from": "L005",
+    "to": "L009",
+    "bidirectional": true,
+    "length": 47.17,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R007",
+    "from": "L009",
+    "to": "L010",
+    "bidirectional": true,
+    "length": 19.21,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R008",
+    "from": "L002",
+    "to": "L006",
+    "bidirectional": true,
+    "length": 34.48,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R009",
+    "from": "L006",
+    "to": "L009",
+    "bidirectional": true,
+    "length": 24.52,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R010",
+    "from": "L009",
+    "to": "L011",
+    "bidirectional": true,
+    "length": 33.97,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R011",
+    "from": "L011",
+    "to": "L012",
+    "bidirectional": true,
+    "length": 28.28,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R012",
+    "from": "L012",
+    "to": "L013",
+    "bidirectional": true,
+    "length": 25.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R013",
+    "from": "L013",
+    "to": "L014",
+    "bidirectional": true,
+    "length": 25.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R014",
+    "from": "L002",
+    "to": "L030",
+    "bidirectional": true,
+    "length": 40.31,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R015",
+    "from": "L030",
+    "to": "L031",
+    "bidirectional": true,
+    "length": 21.21,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R016",
+    "from": "L031",
+    "to": "L032",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R017",
+    "from": "L032",
+    "to": "L040",
+    "bidirectional": true,
+    "length": 42.72,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R018",
+    "from": "L040",
+    "to": "L036",
+    "bidirectional": true,
+    "length": 39.05,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R019",
+    "from": "L005",
+    "to": "L007",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R020",
+    "from": "L007",
+    "to": "L049",
+    "bidirectional": true,
+    "length": 13.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R021",
+    "from": "L004",
+    "to": "L007",
+    "bidirectional": true,
+    "length": 17.2,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R022",
+    "from": "L007",
+    "to": "L050",
+    "bidirectional": true,
+    "length": 23.54,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R023",
+    "from": "L006",
+    "to": "L023",
+    "bidirectional": true,
+    "length": 19.72,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R024",
+    "from": "L023",
+    "to": "L024",
+    "bidirectional": true,
+    "length": 18.03,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R025",
+    "from": "L024",
+    "to": "L025",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R026",
+    "from": "L003",
+    "to": "L005",
+    "bidirectional": true,
+    "length": 21.19,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R027",
+    "from": "L005",
+    "to": "L008",
+    "bidirectional": true,
+    "length": 12.21,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R028",
+    "from": "L008",
+    "to": "L053",
+    "bidirectional": true,
+    "length": 18.38,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R029",
+    "from": "L002",
+    "to": "L004",
+    "bidirectional": true,
+    "length": 23.54,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R030",
+    "from": "L050",
+    "to": "L051",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R031",
+    "from": "L023",
+    "to": "L020",
+    "bidirectional": true,
+    "length": 70.18,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R032",
+    "from": "L020",
+    "to": "L052",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R033",
+    "from": "L023",
+    "to": "L026",
+    "bidirectional": true,
+    "length": 25.5,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R034",
+    "from": "L026",
+    "to": "L027",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R035",
+    "from": "L027",
+    "to": "L028",
+    "bidirectional": true,
+    "length": 25.5,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R036",
+    "from": "L028",
+    "to": "L029",
+    "bidirectional": true,
+    "length": 25.5,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R037",
+    "from": "L009",
+    "to": "L019",
+    "bidirectional": true,
+    "length": 43.29,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R038",
+    "from": "L019",
+    "to": "L020",
+    "bidirectional": true,
+    "length": 25.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R039",
+    "from": "L020",
+    "to": "L021",
+    "bidirectional": true,
+    "length": 25.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R040",
+    "from": "L021",
+    "to": "L058",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R041",
+    "from": "L006",
+    "to": "L011",
+    "bidirectional": true,
+    "length": 55.76,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R042",
+    "from": "L011",
+    "to": "L016",
+    "bidirectional": true,
+    "length": 30.41,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R043",
+    "from": "L016",
+    "to": "L017",
+    "bidirectional": true,
+    "length": 21.21,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R044",
+    "from": "L017",
+    "to": "L018",
+    "bidirectional": true,
+    "length": 22.36,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R045",
+    "from": "L031",
+    "to": "L040",
+    "bidirectional": true,
+    "length": 60.83,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R046",
+    "from": "L040",
+    "to": "L041",
+    "bidirectional": true,
+    "length": 18.03,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R047",
+    "from": "L041",
+    "to": "L042",
+    "bidirectional": true,
+    "length": 18.03,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R048",
+    "from": "L042",
+    "to": "L043",
+    "bidirectional": true,
+    "length": 25.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R049",
+    "from": "L032",
+    "to": "L036",
+    "bidirectional": true,
+    "length": 21.21,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R050",
+    "from": "L036",
+    "to": "L037",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R051",
+    "from": "L037",
+    "to": "L038",
+    "bidirectional": true,
+    "length": 22.36,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R052",
+    "from": "L031",
+    "to": "L033",
+    "bidirectional": true,
+    "length": 30.41,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R053",
+    "from": "L033",
+    "to": "L034",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R054",
+    "from": "L034",
+    "to": "L055",
+    "bidirectional": true,
+    "length": 29.15,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R055",
+    "from": "L019",
+    "to": "L021",
+    "bidirectional": true,
+    "length": 40.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R056",
+    "from": "L021",
+    "to": "L022",
+    "bidirectional": true,
+    "length": 25.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R057",
+    "from": "L003",
+    "to": "L007",
+    "bidirectional": true,
+    "length": 30.89,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R058",
+    "from": "L050",
+    "to": "L054",
+    "bidirectional": true,
+    "length": 26.93,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R059",
+    "from": "L023",
+    "to": "L030",
+    "bidirectional": true,
+    "length": 60.21,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R060",
+    "from": "L031",
+    "to": "L035",
+    "bidirectional": true,
+    "length": 55.23,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R061",
+    "from": "L002",
+    "to": "L009",
+    "bidirectional": true,
+    "length": 58.94,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R062",
+    "from": "L014",
+    "to": "L015",
+    "bidirectional": true,
+    "length": 25.5,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R063",
+    "from": "L016",
+    "to": "L056",
+    "bidirectional": true,
+    "length": 38.08,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R064",
+    "from": "L056",
+    "to": "L057",
+    "bidirectional": true,
+    "length": 25.5,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R065",
+    "from": "L031",
+    "to": "L036",
+    "bidirectional": true,
+    "length": 40.31,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R066",
+    "from": "L037",
+    "to": "L039",
+    "bidirectional": true,
+    "length": 40.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R067",
+    "from": "L024",
+    "to": "L004",
+    "bidirectional": true,
+    "length": 26.25,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R068",
+    "from": "L004",
+    "to": "L059",
+    "bidirectional": true,
+    "length": 8.6,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R069",
+    "from": "L009",
+    "to": "L040",
+    "bidirectional": true,
+    "length": 64.26,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R070",
+    "from": "L040",
+    "to": "L044",
+    "bidirectional": true,
+    "length": 28.28,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R071",
+    "from": "L044",
+    "to": "L045",
+    "bidirectional": true,
+    "length": 22.36,
+    "blocked": false,
+    "metadata": {
+      "road_type": "trail"
+    }
+  },
+  {
+    "id": "R072",
+    "from": "L045",
+    "to": "L046",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "road_type": "tunnel"
+    }
+  },
+  {
+    "id": "R073",
+    "from": "L046",
+    "to": "L047",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "tunnel"
+    }
+  },
+  {
+    "id": "R074",
+    "from": "L003",
+    "to": "L060",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R075",
+    "from": "L060",
+    "to": "L004",
+    "bidirectional": true,
+    "length": 12.21,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R076",
+    "from": "L003",
+    "to": "L061",
+    "bidirectional": true,
+    "length": 32.7,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R077",
+    "from": "L061",
+    "to": "L005",
+    "bidirectional": true,
+    "length": 11.66,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R078",
+    "from": "L005",
+    "to": "L063",
+    "bidirectional": true,
+    "length": 29.73,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R079",
+    "from": "L063",
+    "to": "L007",
+    "bidirectional": true,
+    "length": 9.43,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R080",
+    "from": "L006",
+    "to": "L063",
+    "bidirectional": true,
+    "length": 15.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R081",
+    "from": "L006",
+    "to": "L062",
+    "bidirectional": true,
+    "length": 17.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R082",
+    "from": "L062",
+    "to": "L009",
+    "bidirectional": true,
+    "length": 8.6,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R083",
+    "from": "L009",
+    "to": "L064",
+    "bidirectional": true,
+    "length": 19.85,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R084",
+    "from": "L064",
+    "to": "L011",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R085",
+    "from": "L004",
+    "to": "L023",
+    "bidirectional": true,
+    "length": 27.46,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R086",
+    "from": "L023",
+    "to": "L063",
+    "bidirectional": true,
+    "length": 5.0,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R087",
+    "from": "L024",
+    "to": "L063",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R088",
+    "from": "L030",
+    "to": "L065",
+    "bidirectional": true,
+    "length": 25.5,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R089",
+    "from": "L065",
+    "to": "L031",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R090",
+    "from": "L065",
+    "to": "L033",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R091",
+    "from": "L032",
+    "to": "L066",
+    "bidirectional": true,
+    "length": 35.36,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R092",
+    "from": "L066",
+    "to": "L036",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R093",
+    "from": "L037",
+    "to": "L066",
+    "bidirectional": true,
+    "length": 11.18,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R094",
+    "from": "L040",
+    "to": "L067",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R095",
+    "from": "L067",
+    "to": "L044",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R096",
+    "from": "L067",
+    "to": "L041",
+    "bidirectional": true,
+    "length": 20.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R097",
+    "from": "L020",
+    "to": "L068",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R098",
+    "from": "L068",
+    "to": "L027",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "road_type": "bridge"
+    }
+  },
+  {
+    "id": "R099",
+    "from": "L068",
+    "to": "L028",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R100",
+    "from": "L021",
+    "to": "L069",
+    "bidirectional": true,
+    "length": 22.36,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R101",
+    "from": "L069",
+    "to": "L022",
+    "bidirectional": true,
+    "length": 30.41,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R102",
+    "from": "L064",
+    "to": "L019",
+    "bidirectional": true,
+    "length": 31.62,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R103",
+    "from": "L013",
+    "to": "L070",
+    "bidirectional": true,
+    "length": 30.41,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  },
+  {
+    "id": "R104",
+    "from": "L070",
+    "to": "L015",
+    "bidirectional": true,
+    "length": 29.15,
+    "blocked": false,
+    "metadata": {
+      "road_type": "alternate"
+    }
+  }
+]

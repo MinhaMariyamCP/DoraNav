@@ -1,0 +1,890 @@
+{
+  "metadata": {
+    "scenario": "Robotics Navigation and Map Processing Pipeline",
+    "map_name": "DoraNav World Unified Canvas",
+    "canvas_width_px": 1820,
+    "canvas_height_px": 1024,
+    "resolution_units_per_pixel": 2.5,
+    "resolution_unit": "meters",
+    "total_area_km": 11.648,
+    "nominal_velocity_px_sec": 15.0,
+    "nominal_velocity_m_sec": 37.5,
+    "scoring_formula": "Total_Cost = Distance_px * 1.0 + Hazard_Risk_Penalty + (Delays_sec * Nominal_Velocity)"
+  },
+  "waypoints": [
+    {
+      "id": "WP_01",
+      "name": "01 Dora's House (Start)",
+      "x": 105,
+      "y": 415,
+      "type": "start"
+    },
+    {
+      "id": "WP_02",
+      "name": "02 Jungle Entrance",
+      "x": 385,
+      "y": 345,
+      "type": "junction"
+    },
+    {
+      "id": "WP_03",
+      "name": "05 Adventure Forest",
+      "x": 425,
+      "y": 235,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_04",
+      "name": "10 Treehouse",
+      "x": 470,
+      "y": 85,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_05",
+      "name": "13 Blueberry Hill",
+      "x": 790,
+      "y": 140,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_06",
+      "name": "19 Moonbeam Mountain",
+      "x": 865,
+      "y": 210,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_07",
+      "name": "43 High Tower",
+      "x": 1280,
+      "y": 125,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_08",
+      "name": "46 Wizard's Castle",
+      "x": 1320,
+      "y": 210,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_09",
+      "name": "50 Cloud Path",
+      "x": 1410,
+      "y": 150,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_10",
+      "name": "12 King's Castle (Goal)",
+      "x": 1485,
+      "y": 290,
+      "type": "goal"
+    },
+    {
+      "id": "WP_11",
+      "name": "25 Giant River Ferry (Crocodile Zone)",
+      "x": 510,
+      "y": 520,
+      "type": "hazard_node"
+    },
+    {
+      "id": "WP_12",
+      "name": "35 Desert Oasis",
+      "x": 740,
+      "y": 390,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_13",
+      "name": "32 Rainbow Bridge",
+      "x": 830,
+      "y": 580,
+      "type": "bridge"
+    },
+    {
+      "id": "WP_14",
+      "name": "33 Troll Bridge (Blocked)",
+      "x": 960,
+      "y": 580,
+      "type": "hazard_node"
+    },
+    {
+      "id": "WP_15",
+      "name": "42 Lava Tunnel",
+      "x": 1085,
+      "y": 480,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_16",
+      "name": "40 Volcano Path (Rocky Zone)",
+      "x": 1145,
+      "y": 360,
+      "type": "hazard_node"
+    },
+    {
+      "id": "WP_17",
+      "name": "34 Castle Bridge",
+      "x": 1180,
+      "y": 545,
+      "type": "bridge"
+    },
+    {
+      "id": "WP_18",
+      "name": "52 Fairy Forest",
+      "x": 1370,
+      "y": 425,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_19",
+      "name": "44 Castle Gate (Swiper Zone)",
+      "x": 1330,
+      "y": 270,
+      "type": "hazard_node"
+    },
+    {
+      "id": "WP_20",
+      "name": "57 School & Plain",
+      "x": 290,
+      "y": 510,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_21",
+      "name": "28 Sparkling Lake Causeway",
+      "x": 620,
+      "y": 620,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_22",
+      "name": "62 Southern Coastal Causeway",
+      "x": 980,
+      "y": 670,
+      "type": "waypoint"
+    },
+    {
+      "id": "WP_23",
+      "name": "31 Waterfall Overlook",
+      "x": 1120,
+      "y": 620,
+      "type": "waypoint"
+    }
+  ],
+  "hazards": [
+    {
+      "id": "HAZ_01",
+      "name": "Crocodiles in Water (Giant River)",
+      "type": "water_predator",
+      "severity": "CRITICAL",
+      "centroid": [
+        510,
+        520
+      ],
+      "radius": 55,
+      "polygon": [
+        [
+          450,
+          485
+        ],
+        [
+          560,
+          480
+        ],
+        [
+          570,
+          555
+        ],
+        [
+          460,
+          560
+        ],
+        [
+          450,
+          485
+        ]
+      ],
+      "speed_factor": 0.2,
+      "penalty_cost": 5000.0,
+      "wait_delay_sec": 60.0,
+      "recommended_action": "Strictly impassable for wading/swimming. Must cross via bridges (Rainbow Bridge or Castle Bridge)."
+    },
+    {
+      "id": "HAZ_02",
+      "name": "Blocked Troll Bridge (Node 33)",
+      "type": "blocked_bridge",
+      "severity": "HIGH",
+      "centroid": [
+        960,
+        580
+      ],
+      "radius": 40,
+      "polygon": [
+        [
+          925,
+          550
+        ],
+        [
+          995,
+          550
+        ],
+        [
+          1000,
+          610
+        ],
+        [
+          930,
+          610
+        ],
+        [
+          925,
+          550
+        ]
+      ],
+      "speed_factor": 0.2,
+      "penalty_cost": 400.0,
+      "wait_delay_sec": 15.0,
+      "recommended_action": "Bridge barricaded / Troll inspection. Requires either 15 s wait for riddle or detour via Rainbow Bridge (Node 32) or Castle Bridge (Node 34)."
+    },
+    {
+      "id": "HAZ_03",
+      "name": "Rocky Hilly Pass (Volcano & Lava Tunnel)",
+      "type": "rocky_terrain",
+      "severity": "MEDIUM",
+      "centroid": [
+        1120,
+        460
+      ],
+      "radius": 75,
+      "polygon": [
+        [
+          1050,
+          400
+        ],
+        [
+          1200,
+          390
+        ],
+        [
+          1210,
+          510
+        ],
+        [
+          1060,
+          520
+        ],
+        [
+          1050,
+          400
+        ]
+      ],
+      "speed_factor": 0.5,
+      "penalty_cost": 200.0,
+      "wait_delay_sec": 0.0,
+      "recommended_action": "Passable with mechanical wear and 50% velocity reduction due to loose scree and volcanic rocks."
+    },
+    {
+      "id": "HAZ_04",
+      "name": "Swiper Mobile Blocker (Castle Gate Pass)",
+      "type": "mobile_blocker",
+      "severity": "MEDIUM",
+      "centroid": [
+        1330,
+        270
+      ],
+      "radius": 50,
+      "polygon": [
+        [
+          1280,
+          230
+        ],
+        [
+          1380,
+          230
+        ],
+        [
+          1390,
+          310
+        ],
+        [
+          1290,
+          310
+        ],
+        [
+          1280,
+          230
+        ]
+      ],
+      "speed_factor": 0.4,
+      "penalty_cost": 250.0,
+      "wait_delay_sec": 20.0,
+      "recommended_action": "Intermittent mobile blocker. Wait 20 s for corridor clearance or divert north via Wizard's Castle & Cloud Path."
+    }
+  ],
+  "primary_route": {
+    "name": "Primary Route (Recommended)",
+    "description": "Optimized safe trajectory using Rainbow Bridge & Castle Bridge bypass; zero water hazard, bypasses blocked Troll Bridge and Swiper corridor.",
+    "waypoints": [
+      "WP_01",
+      "WP_02",
+      "WP_03",
+      "WP_12",
+      "WP_13",
+      "WP_22",
+      "WP_23",
+      "WP_17",
+      "WP_18",
+      "WP_10"
+    ],
+    "total_distance_px": 1788.7,
+    "total_distance_m": 4471.7,
+    "estimated_time_sec": 119.2,
+    "estimated_time_formatted": "1m 59s",
+    "hazard_penalty": 0.0,
+    "delays_sec": 0.0,
+    "total_cost": 1788.7,
+    "hazard_exposures": [],
+    "segments": [
+      {
+        "from": "WP_01",
+        "to": "WP_02",
+        "from_name": "01 Dora's House (Start)",
+        "to_name": "02 Jungle Entrance",
+        "distance_px": 288.6,
+        "distance_m": 721.5,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 19.2,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_02",
+        "to": "WP_03",
+        "from_name": "02 Jungle Entrance",
+        "to_name": "05 Adventure Forest",
+        "distance_px": 117.0,
+        "distance_m": 292.6,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 7.8,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_03",
+        "to": "WP_12",
+        "from_name": "05 Adventure Forest",
+        "to_name": "35 Desert Oasis",
+        "distance_px": 351.1,
+        "distance_m": 877.7,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 23.4,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_12",
+        "to": "WP_13",
+        "from_name": "35 Desert Oasis",
+        "to_name": "32 Rainbow Bridge",
+        "distance_px": 210.2,
+        "distance_m": 525.6,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 14.0,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_13",
+        "to": "WP_22",
+        "from_name": "32 Rainbow Bridge",
+        "to_name": "62 Southern Coastal Causeway",
+        "distance_px": 174.9,
+        "distance_m": 437.3,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 11.7,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_22",
+        "to": "WP_23",
+        "from_name": "62 Southern Coastal Causeway",
+        "to_name": "31 Waterfall Overlook",
+        "distance_px": 148.7,
+        "distance_m": 371.7,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 9.9,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_23",
+        "to": "WP_17",
+        "from_name": "31 Waterfall Overlook",
+        "to_name": "34 Castle Bridge",
+        "distance_px": 96.0,
+        "distance_m": 240.1,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 6.4,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_17",
+        "to": "WP_18",
+        "from_name": "34 Castle Bridge",
+        "to_name": "52 Fairy Forest",
+        "distance_px": 224.7,
+        "distance_m": 561.8,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 15.0,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_18",
+        "to": "WP_10",
+        "from_name": "52 Fairy Forest",
+        "to_name": "12 King's Castle (Goal)",
+        "distance_px": 177.3,
+        "distance_m": 443.4,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 11.8,
+        "notes": "Safe clearance"
+      }
+    ],
+    "rank": 2
+  },
+  "alternate_routes": [
+    {
+      "name": "Alternative Route 1 (Maximum Safety)",
+      "description": "High-altitude mountain ridge route. 100% hazard clearance: zero water exposure, zero rockfall risk, fully bypasses Swiper and Troll bridge.",
+      "waypoints": [
+        "WP_01",
+        "WP_02",
+        "WP_04",
+        "WP_05",
+        "WP_06",
+        "WP_07",
+        "WP_08",
+        "WP_09",
+        "WP_10"
+      ],
+      "total_distance_px": 1774.0,
+      "total_distance_m": 4435.0,
+      "estimated_time_sec": 118.3,
+      "estimated_time_formatted": "1m 58s",
+      "hazard_penalty": 0.0,
+      "delays_sec": 0.0,
+      "total_cost": 1774.0,
+      "hazard_exposures": [],
+      "segments": [
+        {
+          "from": "WP_01",
+          "to": "WP_02",
+          "from_name": "01 Dora's House (Start)",
+          "to_name": "02 Jungle Entrance",
+          "distance_px": 288.6,
+          "distance_m": 721.5,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 19.2,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_02",
+          "to": "WP_04",
+          "from_name": "02 Jungle Entrance",
+          "to_name": "10 Treehouse",
+          "distance_px": 273.5,
+          "distance_m": 683.9,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 18.2,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_04",
+          "to": "WP_05",
+          "from_name": "10 Treehouse",
+          "to_name": "13 Blueberry Hill",
+          "distance_px": 324.7,
+          "distance_m": 811.7,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 21.6,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_05",
+          "to": "WP_06",
+          "from_name": "13 Blueberry Hill",
+          "to_name": "19 Moonbeam Mountain",
+          "distance_px": 102.6,
+          "distance_m": 256.5,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 6.8,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_06",
+          "to": "WP_07",
+          "from_name": "19 Moonbeam Mountain",
+          "to_name": "43 High Tower",
+          "distance_px": 423.6,
+          "distance_m": 1059.0,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 28.2,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_07",
+          "to": "WP_08",
+          "from_name": "43 High Tower",
+          "to_name": "46 Wizard's Castle",
+          "distance_px": 93.9,
+          "distance_m": 234.9,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 6.3,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_08",
+          "to": "WP_09",
+          "from_name": "46 Wizard's Castle",
+          "to_name": "50 Cloud Path",
+          "distance_px": 108.2,
+          "distance_m": 270.4,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 7.2,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_09",
+          "to": "WP_10",
+          "from_name": "50 Cloud Path",
+          "to_name": "12 King's Castle (Goal)",
+          "distance_px": 158.8,
+          "distance_m": 397.1,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 10.6,
+          "notes": "Safe clearance"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "name": "Alternative Route 2 (Shortest / Fastest with Mitigations)",
+      "description": "Southern sprint trajectory. Shortest physical distance; accepts 15s Troll Bridge inspection and 50% speed throttle across Volcano scree.",
+      "waypoints": [
+        "WP_01",
+        "WP_20",
+        "WP_21",
+        "WP_14",
+        "WP_15",
+        "WP_19",
+        "WP_10"
+      ],
+      "total_distance_px": 1537.2,
+      "total_distance_m": 3843.0,
+      "estimated_time_sec": 319.4,
+      "estimated_time_formatted": "5m 19s",
+      "hazard_penalty": 850.0,
+      "delays_sec": 35.0,
+      "total_cost": 2912.2,
+      "hazard_exposures": [
+        {
+          "hazard_id": "HAZ_02",
+          "name": "Blocked Troll Bridge (Node 33)",
+          "severity": "HIGH",
+          "penalty": 400.0,
+          "action": "Bridge barricaded / Troll inspection. Requires either 15 s wait for riddle or detour via Rainbow Bridge (Node 32) or Castle Bridge (Node 34)."
+        },
+        {
+          "hazard_id": "HAZ_03",
+          "name": "Rocky Hilly Pass (Volcano & Lava Tunnel)",
+          "severity": "MEDIUM",
+          "penalty": 200.0,
+          "action": "Passable with mechanical wear and 50% velocity reduction due to loose scree and volcanic rocks."
+        },
+        {
+          "hazard_id": "HAZ_04",
+          "name": "Swiper Mobile Blocker (Castle Gate Pass)",
+          "severity": "MEDIUM",
+          "penalty": 250.0,
+          "action": "Intermittent mobile blocker. Wait 20 s for corridor clearance or divert north via Wizard's Castle & Cloud Path."
+        }
+      ],
+      "segments": [
+        {
+          "from": "WP_01",
+          "to": "WP_20",
+          "from_name": "01 Dora's House (Start)",
+          "to_name": "57 School & Plain",
+          "distance_px": 208.0,
+          "distance_m": 519.9,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 13.9,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_20",
+          "to": "WP_21",
+          "from_name": "57 School & Plain",
+          "to_name": "28 Sparkling Lake Causeway",
+          "distance_px": 347.9,
+          "distance_m": 869.6,
+          "terrain": "Paved / Hardpack Trail",
+          "speed_factor": 1.0,
+          "effective_speed_m_s": 37.5,
+          "time_sec": 23.2,
+          "notes": "Safe clearance"
+        },
+        {
+          "from": "WP_21",
+          "to": "WP_14",
+          "from_name": "28 Sparkling Lake Causeway",
+          "to_name": "33 Troll Bridge (Blocked)",
+          "distance_px": 342.3,
+          "distance_m": 855.9,
+          "terrain": "blocked_bridge",
+          "speed_factor": 0.2,
+          "effective_speed_m_s": 7.5,
+          "time_sec": 114.1,
+          "notes": "Intersects Blocked Troll Bridge (Node 33)"
+        },
+        {
+          "from": "WP_14",
+          "to": "WP_15",
+          "from_name": "33 Troll Bridge (Blocked)",
+          "to_name": "42 Lava Tunnel",
+          "distance_px": 160.1,
+          "distance_m": 400.2,
+          "terrain": "rocky_terrain",
+          "speed_factor": 0.2,
+          "effective_speed_m_s": 7.5,
+          "time_sec": 53.4,
+          "notes": "Intersects Rocky Hilly Pass (Volcano & Lava Tunnel)"
+        },
+        {
+          "from": "WP_15",
+          "to": "WP_19",
+          "from_name": "42 Lava Tunnel",
+          "to_name": "44 Castle Gate (Swiper Zone)",
+          "distance_px": 322.7,
+          "distance_m": 806.7,
+          "terrain": "mobile_blocker",
+          "speed_factor": 0.4,
+          "effective_speed_m_s": 15.0,
+          "time_sec": 53.8,
+          "notes": "Intersects Swiper Mobile Blocker (Castle Gate Pass)"
+        },
+        {
+          "from": "WP_19",
+          "to": "WP_10",
+          "from_name": "44 Castle Gate (Swiper Zone)",
+          "to_name": "12 King's Castle (Goal)",
+          "distance_px": 156.3,
+          "distance_m": 390.7,
+          "terrain": "mobile_blocker",
+          "speed_factor": 0.4,
+          "effective_speed_m_s": 15.0,
+          "time_sec": 26.0,
+          "notes": "Intersects Swiper Mobile Blocker (Castle Gate Pass)"
+        }
+      ],
+      "rank": 3
+    }
+  ],
+  "baseline_preferred_route": {
+    "name": "Dotted Preferred Route (Baseline)",
+    "description": "Original intended route following the map's dotted overlay line without hazard mitigation.",
+    "waypoints": [
+      "WP_01",
+      "WP_02",
+      "WP_03",
+      "WP_11",
+      "WP_12",
+      "WP_14",
+      "WP_16",
+      "WP_19",
+      "WP_10"
+    ],
+    "total_distance_px": 1907.4,
+    "total_distance_m": 4768.5,
+    "estimated_time_sec": 562.3,
+    "estimated_time_formatted": "9m 22s",
+    "hazard_penalty": 5850.0,
+    "delays_sec": 95.0,
+    "total_cost": 9182.4,
+    "hazard_exposures": [
+      {
+        "hazard_id": "HAZ_01",
+        "name": "Crocodiles in Water (Giant River)",
+        "severity": "CRITICAL",
+        "penalty": 5000.0,
+        "action": "Strictly impassable for wading/swimming. Must cross via bridges (Rainbow Bridge or Castle Bridge)."
+      },
+      {
+        "hazard_id": "HAZ_02",
+        "name": "Blocked Troll Bridge (Node 33)",
+        "severity": "HIGH",
+        "penalty": 400.0,
+        "action": "Bridge barricaded / Troll inspection. Requires either 15 s wait for riddle or detour via Rainbow Bridge (Node 32) or Castle Bridge (Node 34)."
+      },
+      {
+        "hazard_id": "HAZ_03",
+        "name": "Rocky Hilly Pass (Volcano & Lava Tunnel)",
+        "severity": "MEDIUM",
+        "penalty": 200.0,
+        "action": "Passable with mechanical wear and 50% velocity reduction due to loose scree and volcanic rocks."
+      },
+      {
+        "hazard_id": "HAZ_04",
+        "name": "Swiper Mobile Blocker (Castle Gate Pass)",
+        "severity": "MEDIUM",
+        "penalty": 250.0,
+        "action": "Intermittent mobile blocker. Wait 20 s for corridor clearance or divert north via Wizard's Castle & Cloud Path."
+      }
+    ],
+    "segments": [
+      {
+        "from": "WP_01",
+        "to": "WP_02",
+        "from_name": "01 Dora's House (Start)",
+        "to_name": "02 Jungle Entrance",
+        "distance_px": 288.6,
+        "distance_m": 721.5,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 19.2,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_02",
+        "to": "WP_03",
+        "from_name": "02 Jungle Entrance",
+        "to_name": "05 Adventure Forest",
+        "distance_px": 117.0,
+        "distance_m": 292.6,
+        "terrain": "Paved / Hardpack Trail",
+        "speed_factor": 1.0,
+        "effective_speed_m_s": 37.5,
+        "time_sec": 7.8,
+        "notes": "Safe clearance"
+      },
+      {
+        "from": "WP_03",
+        "to": "WP_11",
+        "from_name": "05 Adventure Forest",
+        "to_name": "25 Giant River Ferry (Crocodile Zone)",
+        "distance_px": 297.4,
+        "distance_m": 743.5,
+        "terrain": "water_predator",
+        "speed_factor": 0.2,
+        "effective_speed_m_s": 7.5,
+        "time_sec": 99.1,
+        "notes": "Intersects Crocodiles in Water (Giant River)"
+      },
+      {
+        "from": "WP_11",
+        "to": "WP_12",
+        "from_name": "25 Giant River Ferry (Crocodile Zone)",
+        "to_name": "35 Desert Oasis",
+        "distance_px": 264.2,
+        "distance_m": 660.5,
+        "terrain": "water_predator",
+        "speed_factor": 0.2,
+        "effective_speed_m_s": 7.5,
+        "time_sec": 88.1,
+        "notes": "Intersects Crocodiles in Water (Giant River)"
+      },
+      {
+        "from": "WP_12",
+        "to": "WP_14",
+        "from_name": "35 Desert Oasis",
+        "to_name": "33 Troll Bridge (Blocked)",
+        "distance_px": 290.7,
+        "distance_m": 726.7,
+        "terrain": "blocked_bridge",
+        "speed_factor": 0.2,
+        "effective_speed_m_s": 7.5,
+        "time_sec": 96.9,
+        "notes": "Intersects Blocked Troll Bridge (Node 33)"
+      },
+      {
+        "from": "WP_14",
+        "to": "WP_16",
+        "from_name": "33 Troll Bridge (Blocked)",
+        "to_name": "40 Volcano Path (Rocky Zone)",
+        "distance_px": 287.4,
+        "distance_m": 718.6,
+        "terrain": "rocky_terrain",
+        "speed_factor": 0.2,
+        "effective_speed_m_s": 7.5,
+        "time_sec": 95.8,
+        "notes": "Intersects Rocky Hilly Pass (Volcano & Lava Tunnel)"
+      },
+      {
+        "from": "WP_16",
+        "to": "WP_19",
+        "from_name": "40 Volcano Path (Rocky Zone)",
+        "to_name": "44 Castle Gate (Swiper Zone)",
+        "distance_px": 205.7,
+        "distance_m": 514.3,
+        "terrain": "mobile_blocker",
+        "speed_factor": 0.4,
+        "effective_speed_m_s": 15.0,
+        "time_sec": 34.3,
+        "notes": "Intersects Swiper Mobile Blocker (Castle Gate Pass)"
+      },
+      {
+        "from": "WP_19",
+        "to": "WP_10",
+        "from_name": "44 Castle Gate (Swiper Zone)",
+        "to_name": "12 King's Castle (Goal)",
+        "distance_px": 156.3,
+        "distance_m": 390.7,
+        "terrain": "mobile_blocker",
+        "speed_factor": 0.4,
+        "effective_speed_m_s": 15.0,
+        "time_sec": 26.0,
+        "notes": "Intersects Swiper Mobile Blocker (Castle Gate Pass)"
+      }
+    ]
+  },
+  "recommendations": {
+    "selected_route": "Primary Route (Recommended)",
+    "rank": 1,
+    "rationale": "The Primary Route maintains high geometric fidelity to the original preferred dotted corridor while introducing two critical tactical deviations: (1) detouring across Rainbow Bridge and southern coastal causeway to completely circumvent the unbridged Crocodile water zone and the blocked Troll Bridge, and (2) ascending via Castle Bridge and Fairy Forest to avoid the rolling scree of the Volcano and the Swiper ambush point at Castle Gate. This yields the lowest overall risk penalty (0) and lowest total generalized cost."
+  }
+}

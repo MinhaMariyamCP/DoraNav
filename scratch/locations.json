@@ -1,0 +1,982 @@
+[
+  {
+    "id": "L001",
+    "name": "Dora’s House",
+    "x": 35,
+    "y": 110,
+    "selectable": true,
+    "start": true,
+    "active": true,
+    "type": "start",
+    "metadata": {
+      "description": "The cozy home of Dora, Mami, and Papi where every adventure begins!",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L002",
+    "name": "Benny’s Barn",
+    "x": 65,
+    "y": 92,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "Benny the Bull's warm red barn filled with balloons and hay.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L003",
+    "name": "Blueberry Hill",
+    "x": 85,
+    "y": 155,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A rolling blue hill covered in sweet, giant blueberries.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L004",
+    "name": "Snowy Mountain",
+    "x": 138,
+    "y": 185,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A majestic snow-peaked mountain with slopes and hot cocoa stops.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L005",
+    "name": "Beach",
+    "x": 28,
+    "y": 22,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "Golden sands with turquoise waves and shell collecting.",
+      "region": "Coast"
+    }
+  },
+  {
+    "id": "L006",
+    "name": "Chocolate Tree",
+    "x": 88,
+    "y": 125,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A magical tree that grows delicious chocolate treats.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L007",
+    "name": "Big Yellow Station",
+    "x": 95,
+    "y": 90,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "The bustling train station where Azul the Train stops.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L008",
+    "name": "Flowery Garden",
+    "x": 78,
+    "y": 80,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A fragrant wonderland filled with singing flowers and butterflies.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L009",
+    "name": "Animal Rescue Center",
+    "x": 72,
+    "y": 135,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "Diego's sanctuary where rainforest animals are helped and protected.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L010",
+    "name": "School",
+    "x": 108,
+    "y": 98,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "Dora and Boots' friendly village schoolhouse.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L011",
+    "name": "Music Box",
+    "x": 112,
+    "y": 115,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A giant musical box with winding keys and cheerful melodies.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L012",
+    "name": "King’s Castle",
+    "x": 162,
+    "y": 130,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "The grand royal castle of the kingdom with soaring towers.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L013",
+    "name": "Wizard’s Castle",
+    "x": 132,
+    "y": 168,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A mystical floating spire where friendly wizards brew potions.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L014",
+    "name": "Dragon’s Cave",
+    "x": 175,
+    "y": 172,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "The cozy gem-lit lair of the friendly baby dragon.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L015",
+    "name": "Volcano",
+    "x": 145,
+    "y": 32,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "The mighty bubbling volcano surrounded by warm lava rocks.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L016",
+    "name": "Treasure Island",
+    "x": 12,
+    "y": 10,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A legendary tropical island where hidden pirate treasure rests.",
+      "region": "Coast"
+    }
+  },
+  {
+    "id": "L017",
+    "name": "Mermaid Kingdom",
+    "x": 178,
+    "y": 55,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "An underwater shimmering realm of coral arches and mermaid friends.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L018",
+    "name": "Cloud Castle",
+    "x": 115,
+    "y": 185,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A castle perched high upon fluffy rainbow clouds in the sky.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L019",
+    "name": "Amusement Park",
+    "x": 110,
+    "y": 80,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A thrilling funfair with ferris wheels, rollercoasters, and cotton candy.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L020",
+    "name": "Waterfall",
+    "x": 92,
+    "y": 142,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A cascading jungle waterfall with a sparkling splash pool.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L021",
+    "name": "North Pole",
+    "x": 152,
+    "y": 195,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "The snowy arctic haven of Santa, polar bears, and pine trees.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L022",
+    "name": "Crystal Kingdom",
+    "x": 188,
+    "y": 150,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "A dazzling kingdom carved entirely of rainbow crystal spires.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L023",
+    "name": "Pirate Island",
+    "x": 18,
+    "y": 38,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "The adventurous hideout of the Pirate Piggies with wooden docks.",
+      "region": "Coast"
+    }
+  },
+  {
+    "id": "L024",
+    "name": "Butterfly Festival",
+    "x": 70,
+    "y": 70,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "The grand meadow celebration where thousand wings flutter together.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L025",
+    "name": "Lost City",
+    "x": 165,
+    "y": 40,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "An ancient golden pyramid city full of lost treasures and mysteries.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L026",
+    "name": "Jungle Entrance",
+    "x": 48,
+    "y": 112,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "The vibrant archway entrance leading into the lush rainforest.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L027",
+    "name": "Jungle Camp",
+    "x": 56,
+    "y": 102,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A cozy clearing with camping gear, hammocks, and lanterns.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L028",
+    "name": "Flower Field",
+    "x": 68,
+    "y": 82,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A bright clearing carpeted with yellow and violet wildflowers.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L029",
+    "name": "Nutty Forest",
+    "x": 62,
+    "y": 128,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A dense canopy where friendly squirrels gather golden acorns.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L030",
+    "name": "Big Hill",
+    "x": 82,
+    "y": 148,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "A famous panoramic lookout atop a gentle grassy mountain.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L031",
+    "name": "Adventure Forest",
+    "x": 60,
+    "y": 118,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "An enchanted forest path filled with singing birds and hidden trails.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L032",
+    "name": "Big Mountain",
+    "x": 112,
+    "y": 162,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "The towering granite ridge overlooking the entire valley.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L033",
+    "name": "Highest Hill",
+    "x": 124,
+    "y": 174,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "The steep upper slope before the snowy alpine peaks.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L034",
+    "name": "Tallest Mountain",
+    "x": 132,
+    "y": 180,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "The sheer rocky summit piercing through chilly mountain clouds.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L035",
+    "name": "Small Stream",
+    "x": 42,
+    "y": 85,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A cheerful bubbling stream where playful frogs leap across pebbles.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L036",
+    "name": "Giant River",
+    "x": 40,
+    "y": 60,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "The great wide river flowing through the heart of Dora's world.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L037",
+    "name": "Rainbow Bridge",
+    "x": 34,
+    "y": 45,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "An arched rainbow stone bridge spanning across the river.",
+      "region": "Coast"
+    }
+  },
+  {
+    "id": "L038",
+    "name": "Desert Oasis",
+    "x": 52,
+    "y": 38,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "A lush palm tree sanctuary surrounded by shimmering desert sands.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L039",
+    "name": "Big Tree",
+    "x": 84,
+    "y": 110,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "The ancient mammoth oak tree with climbing vines and leafy hollows.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L040",
+    "name": "Forest Garden",
+    "x": 74,
+    "y": 98,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A manicured grove of fruit bushes, vines, and stone benches.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L041",
+    "name": "Butterfly Garden",
+    "x": 76,
+    "y": 86,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A sunny sanctuary where colorful butterflies dance in spirals.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L042",
+    "name": "Treehouse",
+    "x": 68,
+    "y": 138,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "Boots' secret wooden treehouse with rope ladders and lookouts.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L043",
+    "name": "High Tower",
+    "x": 102,
+    "y": 120,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A stone watchtower with a telescope facing the four horizons.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L044",
+    "name": "Troll Bridge",
+    "x": 120,
+    "y": 105,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "The wooden plank bridge where the Grumpy Old Troll asks riddles.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L045",
+    "name": "Castle Bridge",
+    "x": 140,
+    "y": 118,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A grand arched drawbridge with royal banners over the moat.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L046",
+    "name": "Castle Gate",
+    "x": 152,
+    "y": 124,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "The imposing oak and iron gates guarding the Royal Castle courtyard.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L047",
+    "name": "Moonbeam Mountain",
+    "x": 98,
+    "y": 165,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A mystical mountain that sparkles softly under moonlight.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L048",
+    "name": "Cloud Path",
+    "x": 118,
+    "y": 175,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A whimsical staircase of solid cumulus clouds floating in the sky.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L049",
+    "name": "Dragon Mountain",
+    "x": 150,
+    "y": 160,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A craggy red rock crest with warm thermal vents.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L050",
+    "name": "Dragon’s Forest",
+    "x": 164,
+    "y": 166,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A glowing forest of ember trees leading to the dragon's cave.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L051",
+    "name": "Cactus Valley",
+    "x": 78,
+    "y": 32,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A sun-baked canyon framed by giant saguaro cacti.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L052",
+    "name": "Volcano Path",
+    "x": 115,
+    "y": 30,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A winding pumice path lined with warm volcanic cobblestones.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L053",
+    "name": "Pirate Harbor",
+    "x": 22,
+    "y": 26,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "The weathered wooden docks where pirate ships drop anchor.",
+      "region": "Coast"
+    }
+  },
+  {
+    "id": "L054",
+    "name": "Sparkling Lake",
+    "x": 120,
+    "y": 52,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A crystal-clear lake that glitters like diamonds in the sun.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L055",
+    "name": "Crystal Lake",
+    "x": 155,
+    "y": 60,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A serene lake surrounded by naturally glowing quartz crystals.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L056",
+    "name": "Crystal Cave",
+    "x": 168,
+    "y": 158,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A subterranean cavern shimmering with iridescent stalactites.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L057",
+    "name": "Sandy Dunes",
+    "x": 110,
+    "y": 36,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "Rolling golden dunes that shift gently with the desert breeze.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L058",
+    "name": "Ancient Temple",
+    "x": 135,
+    "y": 42,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "Weathered Mesoamerican pyramid steps covered in jungle creepers.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L059",
+    "name": "Hidden Tunnel",
+    "x": 152,
+    "y": 38,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A secret underground passageway carved with ancient petroglyphs.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L060",
+    "name": "Boots' Trees",
+    "x": 42,
+    "y": 125,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "Boots the monkey's favorite palm trees with climbing vines.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L061",
+    "name": "Picnic Place",
+    "x": 30,
+    "y": 95,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A sunny hill with checkered picnic blankets and wooden tables.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L062",
+    "name": "Rock Path",
+    "x": 102,
+    "y": 150,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "A winding stone walkway leading up toward the snowy alpine heights.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L063",
+    "name": "Ice Cave",
+    "x": 148,
+    "y": 180,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A glistening subterranean chamber of frozen icicles and blue ice.",
+      "region": "Mountains"
+    }
+  },
+  {
+    "id": "L064",
+    "name": "Magic Pond",
+    "x": 126,
+    "y": 110,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A mystical round pond whose waters ripple with rainbow rings.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L065",
+    "name": "Farm",
+    "x": 20,
+    "y": 80,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A cheerful family farm with red tractors, friendly sheep, and haystacks.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L066",
+    "name": "Windmill",
+    "x": 32,
+    "y": 75,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A tall classic windmill whose giant sails turn in the sea breeze.",
+      "region": "Jungle"
+    }
+  },
+  {
+    "id": "L067",
+    "name": "Pirate Ship",
+    "x": 12,
+    "y": 30,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "The Pirate Piggies' galleon anchored off the sandy coast.",
+      "region": "Coast"
+    }
+  },
+  {
+    "id": "L068",
+    "name": "Golden Sands",
+    "x": 65,
+    "y": 18,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A sun-drenched beach with warm golden pebbles and seashell treasures.",
+      "region": "Valley"
+    }
+  },
+  {
+    "id": "L069",
+    "name": "Hidden Cave",
+    "x": 98,
+    "y": 25,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "A mysterious carved sandstone cavern hidden behind desert palms.",
+      "region": "Desert"
+    }
+  },
+  {
+    "id": "L070",
+    "name": "Fairy Forest",
+    "x": 142,
+    "y": 92,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "An enchanted twilight woodland illuminated by dancing fairy lights.",
+      "region": "Valley"
+    }
+  }
+]

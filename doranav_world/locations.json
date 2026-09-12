@@ -1,0 +1,912 @@
+[
+  {
+    "id": "L001",
+    "name": "Dora's House",
+    "x": 10,
+    "y": 105,
+    "selectable": true,
+    "start": true,
+    "active": true,
+    "type": "start",
+    "metadata": {
+      "description": "DoraNav location: Dora's House"
+    }
+  },
+  {
+    "id": "L002",
+    "name": "Jungle Entrance",
+    "x": 25,
+    "y": 105,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "DoraNav location: Jungle Entrance"
+    }
+  },
+  {
+    "id": "L003",
+    "name": "Jungle Camp",
+    "x": 35,
+    "y": 115,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Jungle Camp"
+    }
+  },
+  {
+    "id": "L004",
+    "name": "Flower Field",
+    "x": 48,
+    "y": 110,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Flower Field"
+    }
+  },
+  {
+    "id": "L005",
+    "name": "Nutty Forest",
+    "x": 42,
+    "y": 95,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Nutty Forest"
+    }
+  },
+  {
+    "id": "L006",
+    "name": "Adventure Forest",
+    "x": 58,
+    "y": 115,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Adventure Forest"
+    }
+  },
+  {
+    "id": "L007",
+    "name": "Big Tree",
+    "x": 62,
+    "y": 100,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Big Tree"
+    }
+  },
+  {
+    "id": "L008",
+    "name": "Treehouse",
+    "x": 52,
+    "y": 88,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Treehouse"
+    }
+  },
+  {
+    "id": "L009",
+    "name": "Big Hill",
+    "x": 82,
+    "y": 120,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "junction",
+    "metadata": {
+      "description": "DoraNav location: Big Hill"
+    }
+  },
+  {
+    "id": "L010",
+    "name": "Blueberry Hill",
+    "x": 70,
+    "y": 135,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Blueberry Hill"
+    }
+  },
+  {
+    "id": "L011",
+    "name": "Big Mountain",
+    "x": 105,
+    "y": 145,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Big Mountain"
+    }
+  },
+  {
+    "id": "L012",
+    "name": "Highest Hill",
+    "x": 125,
+    "y": 165,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Highest Hill"
+    }
+  },
+  {
+    "id": "L013",
+    "name": "Tallest Mountain",
+    "x": 145,
+    "y": 180,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Tallest Mountain"
+    }
+  },
+  {
+    "id": "L014",
+    "name": "Snowy Mountain",
+    "x": 165,
+    "y": 195,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Snowy Mountain"
+    }
+  },
+  {
+    "id": "L015",
+    "name": "North Pole",
+    "x": 190,
+    "y": 200,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: North Pole"
+    }
+  },
+  {
+    "id": "L016",
+    "name": "Dragon Mountain",
+    "x": 135,
+    "y": 150,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Dragon Mountain"
+    }
+  },
+  {
+    "id": "L017",
+    "name": "Dragon's Forest",
+    "x": 150,
+    "y": 135,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Dragon's Forest"
+    }
+  },
+  {
+    "id": "L018",
+    "name": "Dragon's Cave",
+    "x": 170,
+    "y": 125,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Dragon's Cave"
+    }
+  },
+  {
+    "id": "L019",
+    "name": "Moonbeam Mountain",
+    "x": 125,
+    "y": 125,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Moonbeam Mountain"
+    }
+  },
+  {
+    "id": "L020",
+    "name": "High Tower",
+    "x": 145,
+    "y": 110,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: High Tower"
+    }
+  },
+  {
+    "id": "L021",
+    "name": "Cloud Path",
+    "x": 165,
+    "y": 125,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Cloud Path"
+    }
+  },
+  {
+    "id": "L022",
+    "name": "Cloud Castle",
+    "x": 185,
+    "y": 140,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Cloud Castle"
+    }
+  },
+  {
+    "id": "L023",
+    "name": "Forest Garden",
+    "x": 75,
+    "y": 105,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Forest Garden"
+    }
+  },
+  {
+    "id": "L024",
+    "name": "Butterfly Garden",
+    "x": 65,
+    "y": 90,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Butterfly Garden"
+    }
+  },
+  {
+    "id": "L025",
+    "name": "Flowery Garden",
+    "x": 85,
+    "y": 85,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Flowery Garden"
+    }
+  },
+  {
+    "id": "L026",
+    "name": "Troll Bridge",
+    "x": 100,
+    "y": 100,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "bridge",
+    "metadata": {
+      "description": "DoraNav location: Troll Bridge"
+    }
+  },
+  {
+    "id": "L027",
+    "name": "Castle Bridge",
+    "x": 120,
+    "y": 95,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "bridge",
+    "metadata": {
+      "description": "DoraNav location: Castle Bridge"
+    }
+  },
+  {
+    "id": "L028",
+    "name": "Castle Gate",
+    "x": 145,
+    "y": 90,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Castle Gate"
+    }
+  },
+  {
+    "id": "L029",
+    "name": "King's Castle",
+    "x": 170,
+    "y": 85,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: King's Castle"
+    }
+  },
+  {
+    "id": "L030",
+    "name": "Small Stream",
+    "x": 30,
+    "y": 65,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Small Stream"
+    }
+  },
+  {
+    "id": "L031",
+    "name": "Giant River",
+    "x": 45,
+    "y": 50,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Giant River"
+    }
+  },
+  {
+    "id": "L032",
+    "name": "Rainbow Bridge",
+    "x": 65,
+    "y": 45,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "bridge",
+    "metadata": {
+      "description": "DoraNav location: Rainbow Bridge"
+    }
+  },
+  {
+    "id": "L033",
+    "name": "Sparkling Lake",
+    "x": 75,
+    "y": 55,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Sparkling Lake"
+    }
+  },
+  {
+    "id": "L034",
+    "name": "Crystal Lake",
+    "x": 90,
+    "y": 60,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Crystal Lake"
+    }
+  },
+  {
+    "id": "L035",
+    "name": "Waterfall",
+    "x": 100,
+    "y": 45,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Waterfall"
+    }
+  },
+  {
+    "id": "L036",
+    "name": "Beach",
+    "x": 80,
+    "y": 30,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Beach"
+    }
+  },
+  {
+    "id": "L037",
+    "name": "Pirate Harbor",
+    "x": 100,
+    "y": 25,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "harbor",
+    "metadata": {
+      "description": "DoraNav location: Pirate Harbor"
+    }
+  },
+  {
+    "id": "L038",
+    "name": "Treasure Island",
+    "x": 120,
+    "y": 15,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Treasure Island"
+    }
+  },
+  {
+    "id": "L039",
+    "name": "Pirate Island",
+    "x": 140,
+    "y": 25,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Pirate Island"
+    }
+  },
+  {
+    "id": "L040",
+    "name": "Desert Oasis",
+    "x": 105,
+    "y": 60,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Desert Oasis"
+    }
+  },
+  {
+    "id": "L041",
+    "name": "Cactus Valley",
+    "x": 120,
+    "y": 50,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "landmark",
+    "metadata": {
+      "description": "DoraNav location: Cactus Valley"
+    }
+  },
+  {
+    "id": "L042",
+    "name": "Volcano Path",
+    "x": 135,
+    "y": 60,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "path",
+    "metadata": {
+      "description": "DoraNav location: Volcano Path"
+    }
+  },
+  {
+    "id": "L043",
+    "name": "Volcano",
+    "x": 155,
+    "y": 45,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Volcano"
+    }
+  },
+  {
+    "id": "L044",
+    "name": "Sandy Dunes",
+    "x": 125,
+    "y": 80,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Sandy Dunes"
+    }
+  },
+  {
+    "id": "L045",
+    "name": "Ancient Temple",
+    "x": 145,
+    "y": 70,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Ancient Temple"
+    }
+  },
+  {
+    "id": "L046",
+    "name": "Hidden Tunnel",
+    "x": 160,
+    "y": 65,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "tunnel",
+    "metadata": {
+      "description": "DoraNav location: Hidden Tunnel"
+    }
+  },
+  {
+    "id": "L047",
+    "name": "Lost City",
+    "x": 180,
+    "y": 60,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Lost City"
+    }
+  },
+  {
+    "id": "L048",
+    "name": "Benny's Barn",
+    "x": 58,
+    "y": 125,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Benny's Barn"
+    }
+  },
+  {
+    "id": "L049",
+    "name": "Chocolate Tree",
+    "x": 75,
+    "y": 100,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Chocolate Tree"
+    }
+  },
+  {
+    "id": "L050",
+    "name": "Big Yellow Station",
+    "x": 85,
+    "y": 95,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Big Yellow Station"
+    }
+  },
+  {
+    "id": "L051",
+    "name": "School",
+    "x": 100,
+    "y": 90,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: School"
+    }
+  },
+  {
+    "id": "L052",
+    "name": "Music Box",
+    "x": 160,
+    "y": 105,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Music Box"
+    }
+  },
+  {
+    "id": "L053",
+    "name": "Animal Rescue Center",
+    "x": 65,
+    "y": 75,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Animal Rescue Center"
+    }
+  },
+  {
+    "id": "L054",
+    "name": "Amusement Park",
+    "x": 110,
+    "y": 85,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Amusement Park"
+    }
+  },
+  {
+    "id": "L055",
+    "name": "Mermaid Kingdom",
+    "x": 105,
+    "y": 35,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Mermaid Kingdom"
+    }
+  },
+  {
+    "id": "L056",
+    "name": "Crystal Cave",
+    "x": 150,
+    "y": 115,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Crystal Cave"
+    }
+  },
+  {
+    "id": "L057",
+    "name": "Crystal Kingdom",
+    "x": 175,
+    "y": 110,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Crystal Kingdom"
+    }
+  },
+  {
+    "id": "L058",
+    "name": "Wizard's Castle",
+    "x": 180,
+    "y": 130,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Wizard's Castle"
+    }
+  },
+  {
+    "id": "L059",
+    "name": "Butterfly Festival",
+    "x": 55,
+    "y": 105,
+    "selectable": true,
+    "start": false,
+    "active": true,
+    "type": "destination",
+    "metadata": {
+      "description": "DoraNav location: Butterfly Festival"
+    }
+  },
+  {
+    "id": "L060",
+    "name": "Picnic Meadow",
+    "x": 55,
+    "y": 120,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Picnic Meadow"
+    }
+  },
+  {
+    "id": "L061",
+    "name": "Mango Grove",
+    "x": 48,
+    "y": 85,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Mango Grove"
+    }
+  },
+  {
+    "id": "L062",
+    "name": "Rainbow Meadow",
+    "x": 75,
+    "y": 115,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Rainbow Meadow"
+    }
+  },
+  {
+    "id": "L063",
+    "name": "Forest Junction",
+    "x": 70,
+    "y": 105,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Forest Junction"
+    }
+  },
+  {
+    "id": "L064",
+    "name": "Mountain Junction",
+    "x": 95,
+    "y": 135,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Mountain Junction"
+    }
+  },
+  {
+    "id": "L065",
+    "name": "River Junction",
+    "x": 55,
+    "y": 60,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: River Junction"
+    }
+  },
+  {
+    "id": "L066",
+    "name": "Seashell Cove",
+    "x": 90,
+    "y": 20,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Seashell Cove"
+    }
+  },
+  {
+    "id": "L067",
+    "name": "Desert Junction",
+    "x": 115,
+    "y": 70,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Desert Junction"
+    }
+  },
+  {
+    "id": "L068",
+    "name": "Castle Junction",
+    "x": 135,
+    "y": 100,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Castle Junction"
+    }
+  },
+  {
+    "id": "L069",
+    "name": "Cloud Meadow",
+    "x": 155,
+    "y": 145,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Cloud Meadow"
+    }
+  },
+  {
+    "id": "L070",
+    "name": "Polar Camp",
+    "x": 175,
+    "y": 175,
+    "selectable": false,
+    "start": false,
+    "active": true,
+    "type": "intermediate",
+    "metadata": {
+      "description": "DoraNav location: Polar Camp"
+    }
+  }
+]

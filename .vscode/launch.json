@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "DoraNav (Windows Desktop)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "windows"
+    },
+    {
+      "name": "DoraNav (Chrome Web)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "chrome"
+    },
+    {
+      "name": "DoraNav (Connected Android Phone)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "RZCX8081HWN"
+    },
+    {
+      "name": "DoraNav Backpack (Direct Screen Preview)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/screens/backpack/backpack_screen.dart",
+      "deviceId": "windows"
+    }
+  ]
+}

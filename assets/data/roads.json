@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "R001",
+    "from": "L001",
+    "to": "L026",
+    "bidirectional": true,
+    "length": 13.15,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Dora’s House",
+      "to_name": "Jungle Entrance",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R002",
+    "from": "L001",
+    "to": "L060",
+    "bidirectional": true,
+    "length": 16.55,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Dora’s House",
+      "to_name": "Boots' Trees",
+      "scenic": true
+    }
+  },
+  {
+    "id": "R003",
+    "from": "L001",
+    "to": "L061",
+    "bidirectional": true,
+    "length": 15.81,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Dora’s House",
+      "to_name": "Picnic Place",
+      "scenic": true
+    }
+  },
+  {
+    "id": "R004",
+    "from": "L002",
+    "to": "L027",
+    "bidirectional": true,
+    "length": 13.45,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Benny’s Barn",
+      "to_name": "Jungle Camp"
+    }
+  },
+  {
+    "id": "R005",
+    "from": "L002",
+    "to": "L028",
+    "bidirectional": true,
+    "length": 10.44,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Benny’s Barn",
+      "to_name": "Flower Field",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R006",
+    "from": "L003",
+    "to": "L030",
+    "bidirectional": true,
+    "length": 7.62,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Blueberry Hill",
+      "to_name": "Big Hill",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R007",
+    "from": "L004",
+    "to": "L018",
+    "bidirectional": true,
+    "length": 23.0,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Snowy Mountain",
+      "to_name": "Cloud Castle"
+    }
+  },
+  {
+    "id": "R008",
+    "from": "L004",
+    "to": "L021",
+    "bidirectional": true,
+    "length": 17.2,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Snowy Mountain",
+      "to_name": "North Pole",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R009",
+    "from": "L004",
+    "to": "L034",
+    "bidirectional": true,
+    "length": 7.81,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Snowy Mountain",
+      "to_name": "Tallest Mountain",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R010",
+    "from": "L004",
+    "to": "L063",
+    "bidirectional": true,
+    "length": 11.18,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Snowy Mountain",
+      "to_name": "Ice Cave"
+    }
+  },
+  {
+    "id": "R011",
+    "from": "L005",
+    "to": "L036",
+    "bidirectional": true,
+    "length": 39.85,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Beach",
+      "to_name": "Giant River",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R012",
+    "from": "L005",
+    "to": "L037",
+    "bidirectional": true,
+    "length": 23.77,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Beach",
+      "to_name": "Rainbow Bridge",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R013",
+    "from": "L005",
+    "to": "L038",
+    "bidirectional": true,
+    "length": 28.84,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Beach",
+      "to_name": "Desert Oasis",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R014",
+    "from": "L005",
+    "to": "L053",
+    "bidirectional": true,
+    "length": 7.21,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Beach",
+      "to_name": "Pirate Harbor",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R015",
+    "from": "L005",
+    "to": "L067",
+    "bidirectional": true,
+    "length": 17.89,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Beach",
+      "to_name": "Pirate Ship",
+      "coastal": true
+    }
+  },
+  {
+    "id": "R016",
+    "from": "L005",
+    "to": "L068",
+    "bidirectional": true,
+    "length": 37.22,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Beach",
+      "to_name": "Golden Sands",
+      "coastal": true
+    }
+  },
+  {
+    "id": "R017",
+    "from": "L006",
+    "to": "L039",
+    "bidirectional": true,
+    "length": 15.52,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Chocolate Tree",
+      "to_name": "Big Tree",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R018",
+    "from": "L007",
+    "to": "L010",
+    "bidirectional": true,
+    "length": 15.26,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Yellow Station",
+      "to_name": "School",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R019",
+    "from": "L007",
+    "to": "L019",
+    "bidirectional": true,
+    "length": 18.03,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Yellow Station",
+      "to_name": "Amusement Park",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R020",
+    "from": "L007",
+    "to": "L039",
+    "bidirectional": true,
+    "length": 22.83,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Yellow Station",
+      "to_name": "Big Tree",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R021",
+    "from": "L008",
+    "to": "L040",
+    "bidirectional": true,
+    "length": 18.44,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Flowery Garden",
+      "to_name": "Forest Garden"
+    }
+  },
+  {
+    "id": "R022",
+    "from": "L008",
+    "to": "L041",
+    "bidirectional": true,
+    "length": 6.32,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Flowery Garden",
+      "to_name": "Butterfly Garden",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R023",
+    "from": "L009",
+    "to": "L042",
+    "bidirectional": true,
+    "length": 5.0,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Animal Rescue Center",
+      "to_name": "Treehouse",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R024",
+    "from": "L010",
+    "to": "L011",
+    "bidirectional": true,
+    "length": 17.46,
+    "blocked": false,
+    "metadata": {
+      "from_name": "School",
+      "to_name": "Music Box"
+    }
+  },
+  {
+    "id": "R025",
+    "from": "L010",
+    "to": "L019",
+    "bidirectional": true,
+    "length": 18.11,
+    "blocked": false,
+    "metadata": {
+      "from_name": "School",
+      "to_name": "Amusement Park"
+    }
+  },
+  {
+    "id": "R026",
+    "from": "L011",
+    "to": "L043",
+    "bidirectional": true,
+    "length": 11.18,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Music Box",
+      "to_name": "High Tower",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R027",
+    "from": "L012",
+    "to": "L046",
+    "bidirectional": true,
+    "length": 11.66,
+    "blocked": false,
+    "metadata": {
+      "from_name": "King’s Castle",
+      "to_name": "Castle Gate",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R028",
+    "from": "L012",
+    "to": "L070",
+    "bidirectional": true,
+    "length": 42.94,
+    "blocked": false,
+    "metadata": {
+      "from_name": "King’s Castle",
+      "to_name": "Fairy Forest"
+    }
+  },
+  {
+    "id": "R029",
+    "from": "L013",
+    "to": "L048",
+    "bidirectional": true,
+    "length": 15.65,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Wizard’s Castle",
+      "to_name": "Cloud Path",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R030",
+    "from": "L014",
+    "to": "L050",
+    "bidirectional": true,
+    "length": 12.53,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Dragon’s Cave",
+      "to_name": "Dragon’s Forest",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R031",
+    "from": "L014",
+    "to": "L056",
+    "bidirectional": true,
+    "length": 15.65,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Dragon’s Cave",
+      "to_name": "Crystal Cave"
+    }
+  },
+  {
+    "id": "R032",
+    "from": "L015",
+    "to": "L052",
+    "bidirectional": true,
+    "length": 30.07,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Volcano",
+      "to_name": "Volcano Path",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R033",
+    "from": "L015",
+    "to": "L058",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Volcano",
+      "to_name": "Ancient Temple"
+    }
+  },
+  {
+    "id": "R034",
+    "from": "L016",
+    "to": "L023",
+    "bidirectional": true,
+    "length": 28.64,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Treasure Island",
+      "to_name": "Pirate Island",
+      "sea_route": true
+    }
+  },
+  {
+    "id": "R035",
+    "from": "L016",
+    "to": "L053",
+    "bidirectional": true,
+    "length": 18.87,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Treasure Island",
+      "to_name": "Pirate Harbor",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R036",
+    "from": "L017",
+    "to": "L055",
+    "bidirectional": true,
+    "length": 23.54,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Mermaid Kingdom",
+      "to_name": "Crystal Lake",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R037",
+    "from": "L018",
+    "to": "L048",
+    "bidirectional": true,
+    "length": 10.44,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Cloud Castle",
+      "to_name": "Cloud Path",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R038",
+    "from": "L019",
+    "to": "L070",
+    "bidirectional": true,
+    "length": 34.18,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Amusement Park",
+      "to_name": "Fairy Forest"
+    }
+  },
+  {
+    "id": "R039",
+    "from": "L020",
+    "to": "L036",
+    "bidirectional": true,
+    "length": 97.1,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Waterfall",
+      "to_name": "Giant River",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R040",
+    "from": "L020",
+    "to": "L042",
+    "bidirectional": true,
+    "length": 24.33,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Waterfall",
+      "to_name": "Treehouse"
+    }
+  },
+  {
+    "id": "R041",
+    "from": "L020",
+    "to": "L062",
+    "bidirectional": true,
+    "length": 12.81,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Waterfall",
+      "to_name": "Rock Path"
+    }
+  },
+  {
+    "id": "R042",
+    "from": "L020",
+    "to": "L064",
+    "bidirectional": true,
+    "length": 46.69,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Waterfall",
+      "to_name": "Magic Pond"
+    }
+  },
+  {
+    "id": "R043",
+    "from": "L021",
+    "to": "L034",
+    "bidirectional": true,
+    "length": 25.0,
+    "blocked": false,
+    "metadata": {
+      "from_name": "North Pole",
+      "to_name": "Tallest Mountain"
+    }
+  },
+  {
+    "id": "R044",
+    "from": "L021",
+    "to": "L063",
+    "bidirectional": true,
+    "length": 15.52,
+    "blocked": false,
+    "metadata": {
+      "from_name": "North Pole",
+      "to_name": "Ice Cave"
+    }
+  },
+  {
+    "id": "R045",
+    "from": "L022",
+    "to": "L046",
+    "bidirectional": true,
+    "length": 44.41,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Crystal Kingdom",
+      "to_name": "Castle Gate"
+    }
+  },
+  {
+    "id": "R046",
+    "from": "L022",
+    "to": "L056",
+    "bidirectional": true,
+    "length": 21.54,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Crystal Kingdom",
+      "to_name": "Crystal Cave",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R047",
+    "from": "L023",
+    "to": "L053",
+    "bidirectional": true,
+    "length": 12.65,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Pirate Island",
+      "to_name": "Pirate Harbor",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R048",
+    "from": "L024",
+    "to": "L028",
+    "bidirectional": true,
+    "length": 12.17,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Butterfly Festival",
+      "to_name": "Flower Field",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R049",
+    "from": "L025",
+    "to": "L058",
+    "bidirectional": true,
+    "length": 30.07,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Lost City",
+      "to_name": "Ancient Temple"
+    }
+  },
+  {
+    "id": "R050",
+    "from": "L025",
+    "to": "L059",
+    "bidirectional": true,
+    "length": 13.15,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Lost City",
+      "to_name": "Hidden Tunnel",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R051",
+    "from": "L026",
+    "to": "L027",
+    "bidirectional": true,
+    "length": 12.81,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Jungle Camp",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R052",
+    "from": "L026",
+    "to": "L028",
+    "bidirectional": true,
+    "length": 36.06,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Flower Field",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R053",
+    "from": "L026",
+    "to": "L029",
+    "bidirectional": true,
+    "length": 21.26,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Nutty Forest",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R054",
+    "from": "L026",
+    "to": "L030",
+    "bidirectional": true,
+    "length": 49.52,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Big Hill",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R055",
+    "from": "L026",
+    "to": "L031",
+    "bidirectional": true,
+    "length": 13.42,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Adventure Forest",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R056",
+    "from": "L026",
+    "to": "L035",
+    "bidirectional": true,
+    "length": 27.66,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Small Stream",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R057",
+    "from": "L026",
+    "to": "L060",
+    "bidirectional": true,
+    "length": 14.32,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Boots' Trees"
+    }
+  },
+  {
+    "id": "R058",
+    "from": "L026",
+    "to": "L061",
+    "bidirectional": true,
+    "length": 24.76,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Entrance",
+      "to_name": "Picnic Place"
+    }
+  },
+  {
+    "id": "R059",
+    "from": "L027",
+    "to": "L028",
+    "bidirectional": true,
+    "length": 23.32,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Camp",
+      "to_name": "Flower Field",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R060",
+    "from": "L027",
+    "to": "L029",
+    "bidirectional": true,
+    "length": 26.68,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Camp",
+      "to_name": "Nutty Forest",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R061",
+    "from": "L027",
+    "to": "L039",
+    "bidirectional": true,
+    "length": 29.12,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Jungle Camp",
+      "to_name": "Big Tree",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R062",
+    "from": "L028",
+    "to": "L039",
+    "bidirectional": true,
+    "length": 32.25,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Flower Field",
+      "to_name": "Big Tree",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R063",
+    "from": "L028",
+    "to": "L041",
+    "bidirectional": true,
+    "length": 8.94,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Flower Field",
+      "to_name": "Butterfly Garden",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R064",
+    "from": "L029",
+    "to": "L030",
+    "bidirectional": true,
+    "length": 28.28,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Nutty Forest",
+      "to_name": "Big Hill",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R065",
+    "from": "L029",
+    "to": "L039",
+    "bidirectional": true,
+    "length": 28.43,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Nutty Forest",
+      "to_name": "Big Tree",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R066",
+    "from": "L029",
+    "to": "L042",
+    "bidirectional": true,
+    "length": 11.66,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Nutty Forest",
+      "to_name": "Treehouse",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R067",
+    "from": "L029",
+    "to": "L060",
+    "bidirectional": true,
+    "length": 20.22,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Nutty Forest",
+      "to_name": "Boots' Trees"
+    }
+  },
+  {
+    "id": "R068",
+    "from": "L030",
+    "to": "L031",
+    "bidirectional": true,
+    "length": 37.2,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Hill",
+      "to_name": "Adventure Forest",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R069",
+    "from": "L030",
+    "to": "L032",
+    "bidirectional": true,
+    "length": 33.11,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Hill",
+      "to_name": "Big Mountain",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R070",
+    "from": "L030",
+    "to": "L038",
+    "bidirectional": true,
+    "length": 114.02,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Hill",
+      "to_name": "Desert Oasis",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R071",
+    "from": "L030",
+    "to": "L047",
+    "bidirectional": true,
+    "length": 23.35,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Hill",
+      "to_name": "Moonbeam Mountain",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R072",
+    "from": "L030",
+    "to": "L061",
+    "bidirectional": true,
+    "length": 74.25,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Hill",
+      "to_name": "Picnic Place"
+    }
+  },
+  {
+    "id": "R073",
+    "from": "L030",
+    "to": "L062",
+    "bidirectional": true,
+    "length": 20.1,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Hill",
+      "to_name": "Rock Path"
+    }
+  },
+  {
+    "id": "R074",
+    "from": "L031",
+    "to": "L032",
+    "bidirectional": true,
+    "length": 68.12,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Adventure Forest",
+      "to_name": "Big Mountain",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R075",
+    "from": "L031",
+    "to": "L040",
+    "bidirectional": true,
+    "length": 24.41,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Adventure Forest",
+      "to_name": "Forest Garden",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R076",
+    "from": "L032",
+    "to": "L033",
+    "bidirectional": true,
+    "length": 16.97,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Mountain",
+      "to_name": "Highest Hill",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R077",
+    "from": "L032",
+    "to": "L049",
+    "bidirectional": true,
+    "length": 38.05,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Mountain",
+      "to_name": "Dragon Mountain",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R078",
+    "from": "L032",
+    "to": "L062",
+    "bidirectional": true,
+    "length": 15.62,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Mountain",
+      "to_name": "Rock Path"
+    }
+  },
+  {
+    "id": "R079",
+    "from": "L032",
+    "to": "L063",
+    "bidirectional": true,
+    "length": 40.25,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Big Mountain",
+      "to_name": "Ice Cave"
+    }
+  },
+  {
+    "id": "R080",
+    "from": "L033",
+    "to": "L034",
+    "bidirectional": true,
+    "length": 10.0,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Highest Hill",
+      "to_name": "Tallest Mountain",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R081",
+    "from": "L035",
+    "to": "L036",
+    "bidirectional": true,
+    "length": 25.08,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Small Stream",
+      "to_name": "Giant River",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R082",
+    "from": "L035",
+    "to": "L040",
+    "bidirectional": true,
+    "length": 34.54,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Small Stream",
+      "to_name": "Forest Garden",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R083",
+    "from": "L035",
+    "to": "L066",
+    "bidirectional": true,
+    "length": 14.14,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Small Stream",
+      "to_name": "Windmill"
+    }
+  },
+  {
+    "id": "R084",
+    "from": "L036",
+    "to": "L037",
+    "bidirectional": true,
+    "length": 16.16,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Giant River",
+      "to_name": "Rainbow Bridge",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R085",
+    "from": "L036",
+    "to": "L038",
+    "bidirectional": true,
+    "length": 25.06,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Giant River",
+      "to_name": "Desert Oasis",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R086",
+    "from": "L036",
+    "to": "L054",
+    "bidirectional": true,
+    "length": 80.4,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Giant River",
+      "to_name": "Sparkling Lake",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R087",
+    "from": "L037",
+    "to": "L038",
+    "bidirectional": true,
+    "length": 19.31,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Rainbow Bridge",
+      "to_name": "Desert Oasis",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R088",
+    "from": "L038",
+    "to": "L051",
+    "bidirectional": true,
+    "length": 26.68,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Desert Oasis",
+      "to_name": "Cactus Valley",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R089",
+    "from": "L038",
+    "to": "L054",
+    "bidirectional": true,
+    "length": 69.43,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Desert Oasis",
+      "to_name": "Sparkling Lake"
+    }
+  },
+  {
+    "id": "R090",
+    "from": "L038",
+    "to": "L057",
+    "bidirectional": true,
+    "length": 58.03,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Desert Oasis",
+      "to_name": "Sandy Dunes",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R091",
+    "from": "L038",
+    "to": "L066",
+    "bidirectional": true,
+    "length": 42.06,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Desert Oasis",
+      "to_name": "Windmill"
+    }
+  },
+  {
+    "id": "R092",
+    "from": "L038",
+    "to": "L069",
+    "bidirectional": true,
+    "length": 47.8,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Desert Oasis",
+      "to_name": "Hidden Cave"
+    }
+  },
+  {
+    "id": "R093",
+    "from": "L040",
+    "to": "L041",
+    "bidirectional": true,
+    "length": 12.17,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Forest Garden",
+      "to_name": "Butterfly Garden",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R094",
+    "from": "L040",
+    "to": "L043",
+    "bidirectional": true,
+    "length": 35.61,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Forest Garden",
+      "to_name": "High Tower",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R095",
+    "from": "L040",
+    "to": "L044",
+    "bidirectional": true,
+    "length": 46.53,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Forest Garden",
+      "to_name": "Troll Bridge",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R096",
+    "from": "L043",
+    "to": "L044",
+    "bidirectional": true,
+    "length": 23.43,
+    "blocked": false,
+    "metadata": {
+      "from_name": "High Tower",
+      "to_name": "Troll Bridge"
+    }
+  },
+  {
+    "id": "R097",
+    "from": "L043",
+    "to": "L047",
+    "bidirectional": true,
+    "length": 45.18,
+    "blocked": false,
+    "metadata": {
+      "from_name": "High Tower",
+      "to_name": "Moonbeam Mountain",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R098",
+    "from": "L043",
+    "to": "L048",
+    "bidirectional": true,
+    "length": 57.28,
+    "blocked": false,
+    "metadata": {
+      "from_name": "High Tower",
+      "to_name": "Cloud Path",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R099",
+    "from": "L043",
+    "to": "L064",
+    "bidirectional": true,
+    "length": 26.0,
+    "blocked": false,
+    "metadata": {
+      "from_name": "High Tower",
+      "to_name": "Magic Pond"
+    }
+  },
+  {
+    "id": "R100",
+    "from": "L044",
+    "to": "L045",
+    "bidirectional": true,
+    "length": 23.85,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Troll Bridge",
+      "to_name": "Castle Bridge",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R101",
+    "from": "L045",
+    "to": "L046",
+    "bidirectional": true,
+    "length": 13.42,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Castle Bridge",
+      "to_name": "Castle Gate",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R102",
+    "from": "L045",
+    "to": "L070",
+    "bidirectional": true,
+    "length": 26.08,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Castle Bridge",
+      "to_name": "Fairy Forest"
+    }
+  },
+  {
+    "id": "R103",
+    "from": "L047",
+    "to": "L048",
+    "bidirectional": true,
+    "length": 22.36,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Moonbeam Mountain",
+      "to_name": "Cloud Path",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R104",
+    "from": "L049",
+    "to": "L050",
+    "bidirectional": true,
+    "length": 15.23,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Dragon Mountain",
+      "to_name": "Dragon’s Forest",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R105",
+    "from": "L049",
+    "to": "L056",
+    "bidirectional": true,
+    "length": 18.11,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Dragon Mountain",
+      "to_name": "Crystal Cave",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R106",
+    "from": "L051",
+    "to": "L052",
+    "bidirectional": true,
+    "length": 37.05,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Cactus Valley",
+      "to_name": "Volcano Path",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R107",
+    "from": "L051",
+    "to": "L068",
+    "bidirectional": true,
+    "length": 19.1,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Cactus Valley",
+      "to_name": "Golden Sands"
+    }
+  },
+  {
+    "id": "R108",
+    "from": "L051",
+    "to": "L069",
+    "bidirectional": true,
+    "length": 21.19,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Cactus Valley",
+      "to_name": "Hidden Cave"
+    }
+  },
+  {
+    "id": "R109",
+    "from": "L052",
+    "to": "L057",
+    "bidirectional": true,
+    "length": 7.81,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Volcano Path",
+      "to_name": "Sandy Dunes"
+    }
+  },
+  {
+    "id": "R110",
+    "from": "L053",
+    "to": "L067",
+    "bidirectional": true,
+    "length": 10.77,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Pirate Harbor",
+      "to_name": "Pirate Ship",
+      "coastal": true
+    }
+  },
+  {
+    "id": "R111",
+    "from": "L054",
+    "to": "L055",
+    "bidirectional": true,
+    "length": 35.9,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Sparkling Lake",
+      "to_name": "Crystal Lake",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R112",
+    "from": "L054",
+    "to": "L064",
+    "bidirectional": true,
+    "length": 58.31,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Sparkling Lake",
+      "to_name": "Magic Pond"
+    }
+  },
+  {
+    "id": "R113",
+    "from": "L055",
+    "to": "L070",
+    "bidirectional": true,
+    "length": 34.54,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Crystal Lake",
+      "to_name": "Fairy Forest"
+    }
+  },
+  {
+    "id": "R114",
+    "from": "L057",
+    "to": "L058",
+    "bidirectional": true,
+    "length": 25.71,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Sandy Dunes",
+      "to_name": "Ancient Temple",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R115",
+    "from": "L057",
+    "to": "L069",
+    "bidirectional": true,
+    "length": 16.28,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Sandy Dunes",
+      "to_name": "Hidden Cave"
+    }
+  },
+  {
+    "id": "R116",
+    "from": "L058",
+    "to": "L059",
+    "bidirectional": true,
+    "length": 17.46,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Ancient Temple",
+      "to_name": "Hidden Tunnel",
+      "role": "default_route"
+    }
+  },
+  {
+    "id": "R117",
+    "from": "L061",
+    "to": "L065",
+    "bidirectional": true,
+    "length": 18.03,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Picnic Place",
+      "to_name": "Farm"
+    }
+  },
+  {
+    "id": "R118",
+    "from": "L064",
+    "to": "L070",
+    "bidirectional": true,
+    "length": 24.08,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Magic Pond",
+      "to_name": "Fairy Forest"
+    }
+  },
+  {
+    "id": "R119",
+    "from": "L065",
+    "to": "L066",
+    "bidirectional": true,
+    "length": 13.0,
+    "blocked": false,
+    "metadata": {
+      "from_name": "Farm",
+      "to_name": "Windmill"
+    }
+  }
+]

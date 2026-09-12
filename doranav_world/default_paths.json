@@ -1,0 +1,712 @@
+{
+  "Dora's House": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    }
+  ],
+  "Benny's Barn": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L003",
+      "name": "Jungle Camp"
+    },
+    {
+      "id": "L004",
+      "name": "Flower Field"
+    },
+    {
+      "id": "L048",
+      "name": "Benny's Barn"
+    }
+  ],
+  "Blueberry Hill": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L005",
+      "name": "Nutty Forest"
+    },
+    {
+      "id": "L009",
+      "name": "Big Hill"
+    },
+    {
+      "id": "L010",
+      "name": "Blueberry Hill"
+    }
+  ],
+  "Snowy Mountain": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L009",
+      "name": "Big Hill"
+    },
+    {
+      "id": "L011",
+      "name": "Big Mountain"
+    },
+    {
+      "id": "L012",
+      "name": "Highest Hill"
+    },
+    {
+      "id": "L013",
+      "name": "Tallest Mountain"
+    },
+    {
+      "id": "L014",
+      "name": "Snowy Mountain"
+    }
+  ],
+  "Beach": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L030",
+      "name": "Small Stream"
+    },
+    {
+      "id": "L031",
+      "name": "Giant River"
+    },
+    {
+      "id": "L032",
+      "name": "Rainbow Bridge"
+    },
+    {
+      "id": "L040",
+      "name": "Desert Oasis"
+    },
+    {
+      "id": "L036",
+      "name": "Beach"
+    }
+  ],
+  "Chocolate Tree": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L005",
+      "name": "Nutty Forest"
+    },
+    {
+      "id": "L007",
+      "name": "Big Tree"
+    },
+    {
+      "id": "L049",
+      "name": "Chocolate Tree"
+    }
+  ],
+  "Big Yellow Station": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L003",
+      "name": "Jungle Camp"
+    },
+    {
+      "id": "L004",
+      "name": "Flower Field"
+    },
+    {
+      "id": "L007",
+      "name": "Big Tree"
+    },
+    {
+      "id": "L050",
+      "name": "Big Yellow Station"
+    }
+  ],
+  "Flowery Garden": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L023",
+      "name": "Forest Garden"
+    },
+    {
+      "id": "L024",
+      "name": "Butterfly Garden"
+    },
+    {
+      "id": "L025",
+      "name": "Flowery Garden"
+    }
+  ],
+  "Animal Rescue Center": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L003",
+      "name": "Jungle Camp"
+    },
+    {
+      "id": "L005",
+      "name": "Nutty Forest"
+    },
+    {
+      "id": "L008",
+      "name": "Treehouse"
+    },
+    {
+      "id": "L053",
+      "name": "Animal Rescue Center"
+    }
+  ],
+  "School": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L004",
+      "name": "Flower Field"
+    },
+    {
+      "id": "L007",
+      "name": "Big Tree"
+    },
+    {
+      "id": "L050",
+      "name": "Big Yellow Station"
+    },
+    {
+      "id": "L051",
+      "name": "School"
+    }
+  ],
+  "Music Box": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L023",
+      "name": "Forest Garden"
+    },
+    {
+      "id": "L020",
+      "name": "High Tower"
+    },
+    {
+      "id": "L052",
+      "name": "Music Box"
+    }
+  ],
+  "King's Castle": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L023",
+      "name": "Forest Garden"
+    },
+    {
+      "id": "L026",
+      "name": "Troll Bridge"
+    },
+    {
+      "id": "L027",
+      "name": "Castle Bridge"
+    },
+    {
+      "id": "L028",
+      "name": "Castle Gate"
+    },
+    {
+      "id": "L029",
+      "name": "King's Castle"
+    }
+  ],
+  "Wizard's Castle": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L005",
+      "name": "Nutty Forest"
+    },
+    {
+      "id": "L009",
+      "name": "Big Hill"
+    },
+    {
+      "id": "L019",
+      "name": "Moonbeam Mountain"
+    },
+    {
+      "id": "L020",
+      "name": "High Tower"
+    },
+    {
+      "id": "L021",
+      "name": "Cloud Path"
+    },
+    {
+      "id": "L058",
+      "name": "Wizard's Castle"
+    }
+  ],
+  "Dragon's Cave": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L011",
+      "name": "Big Mountain"
+    },
+    {
+      "id": "L016",
+      "name": "Dragon Mountain"
+    },
+    {
+      "id": "L017",
+      "name": "Dragon's Forest"
+    },
+    {
+      "id": "L018",
+      "name": "Dragon's Cave"
+    }
+  ],
+  "Volcano": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L030",
+      "name": "Small Stream"
+    },
+    {
+      "id": "L031",
+      "name": "Giant River"
+    },
+    {
+      "id": "L040",
+      "name": "Desert Oasis"
+    },
+    {
+      "id": "L041",
+      "name": "Cactus Valley"
+    },
+    {
+      "id": "L042",
+      "name": "Volcano Path"
+    },
+    {
+      "id": "L043",
+      "name": "Volcano"
+    }
+  ],
+  "Treasure Island": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L030",
+      "name": "Small Stream"
+    },
+    {
+      "id": "L031",
+      "name": "Giant River"
+    },
+    {
+      "id": "L032",
+      "name": "Rainbow Bridge"
+    },
+    {
+      "id": "L036",
+      "name": "Beach"
+    },
+    {
+      "id": "L037",
+      "name": "Pirate Harbor"
+    },
+    {
+      "id": "L038",
+      "name": "Treasure Island"
+    }
+  ],
+  "Mermaid Kingdom": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L030",
+      "name": "Small Stream"
+    },
+    {
+      "id": "L031",
+      "name": "Giant River"
+    },
+    {
+      "id": "L033",
+      "name": "Sparkling Lake"
+    },
+    {
+      "id": "L034",
+      "name": "Crystal Lake"
+    },
+    {
+      "id": "L055",
+      "name": "Mermaid Kingdom"
+    }
+  ],
+  "Cloud Castle": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L005",
+      "name": "Nutty Forest"
+    },
+    {
+      "id": "L009",
+      "name": "Big Hill"
+    },
+    {
+      "id": "L019",
+      "name": "Moonbeam Mountain"
+    },
+    {
+      "id": "L021",
+      "name": "Cloud Path"
+    },
+    {
+      "id": "L022",
+      "name": "Cloud Castle"
+    }
+  ],
+  "Amusement Park": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L003",
+      "name": "Jungle Camp"
+    },
+    {
+      "id": "L007",
+      "name": "Big Tree"
+    },
+    {
+      "id": "L050",
+      "name": "Big Yellow Station"
+    },
+    {
+      "id": "L054",
+      "name": "Amusement Park"
+    }
+  ],
+  "Waterfall": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L023",
+      "name": "Forest Garden"
+    },
+    {
+      "id": "L030",
+      "name": "Small Stream"
+    },
+    {
+      "id": "L031",
+      "name": "Giant River"
+    },
+    {
+      "id": "L035",
+      "name": "Waterfall"
+    }
+  ],
+  "North Pole": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L009",
+      "name": "Big Hill"
+    },
+    {
+      "id": "L011",
+      "name": "Big Mountain"
+    },
+    {
+      "id": "L012",
+      "name": "Highest Hill"
+    },
+    {
+      "id": "L013",
+      "name": "Tallest Mountain"
+    },
+    {
+      "id": "L014",
+      "name": "Snowy Mountain"
+    },
+    {
+      "id": "L015",
+      "name": "North Pole"
+    }
+  ],
+  "Crystal Kingdom": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L011",
+      "name": "Big Mountain"
+    },
+    {
+      "id": "L016",
+      "name": "Dragon Mountain"
+    },
+    {
+      "id": "L056",
+      "name": "Crystal Cave"
+    },
+    {
+      "id": "L057",
+      "name": "Crystal Kingdom"
+    }
+  ],
+  "Pirate Island": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L030",
+      "name": "Small Stream"
+    },
+    {
+      "id": "L031",
+      "name": "Giant River"
+    },
+    {
+      "id": "L036",
+      "name": "Beach"
+    },
+    {
+      "id": "L037",
+      "name": "Pirate Harbor"
+    },
+    {
+      "id": "L039",
+      "name": "Pirate Island"
+    }
+  ],
+  "Butterfly Festival": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L006",
+      "name": "Adventure Forest"
+    },
+    {
+      "id": "L023",
+      "name": "Forest Garden"
+    },
+    {
+      "id": "L024",
+      "name": "Butterfly Garden"
+    },
+    {
+      "id": "L004",
+      "name": "Flower Field"
+    },
+    {
+      "id": "L059",
+      "name": "Butterfly Festival"
+    }
+  ],
+  "Lost City": [
+    {
+      "id": "L001",
+      "name": "Dora's House"
+    },
+    {
+      "id": "L002",
+      "name": "Jungle Entrance"
+    },
+    {
+      "id": "L005",
+      "name": "Nutty Forest"
+    },
+    {
+      "id": "L009",
+      "name": "Big Hill"
+    },
+    {
+      "id": "L040",
+      "name": "Desert Oasis"
+    },
+    {
+      "id": "L044",
+      "name": "Sandy Dunes"
+    },
+    {
+      "id": "L045",
+      "name": "Ancient Temple"
+    },
+    {
+      "id": "L046",
+      "name": "Hidden Tunnel"
+    },
+    {
+      "id": "L047",
+      "name": "Lost City"
+    }
+  ]
+}
